@@ -57,6 +57,7 @@ To improve clarity and ensure consistency, certain ambiguous labels in the datas
     - job_satisfaction: Reflects how content an employee is with their job, work environment, and responsibilities. Higher scores indicate greater satisfaction.
     - percent_salary_hike: Represents the percentage increase in an employee’s salary over time, which may impact retention and motivation.
     - relationship_satisfaction: Measures an employee’s satisfaction with workplace relationships (colleagues, supervisors, subordinates).
+    - work_life_balance: Represents how employees perceive their ability to balance work responsibilities with personal life, which can be a significant factor in employee satisfaction and retention. Higher scores indicates better balance and satisfaction.
 
 The dataset originates from Kaggle, while additional metadata and variable interpretations were referenced from INSEAD Analytics' project on IBM HR Attrition to ensure alignment with the dataset's intended use.  
 (Link: https://inseaddataanalytics.github.io/INSEADAnalytics/groupprojects/January2018FBL/IBM_Attrition_VSS.html)
@@ -64,10 +65,66 @@ The dataset originates from Kaggle, while additional metadata and variable inter
 
 ## Key Insights
 
-Employee attrition is a complex issue influenced by various personal, professional, and organizational factors. By analyzing patterns across demographics, work-life balance, career growth, job satisfaction, and workload history, we can uncover the key drivers of employee turnover. Below are the primary insights derived from the data:
+Employee attrition is a complex issue influenced by various personal, professional, and organizational factors. By analyzing patterns across demographics, work-life balance, career growth, job satisfaction, and workload history, we can uncover the key drivers of employee turnover.
 
-Section 1 Employee Demographics vs Attrition
+### Overall Attrition Rate
+- The total attrition rate is 16.12% (237 out of 1,470 employees).
+
+### SECTION 1: Employee Demographics
+
+**Gender & Attrition**
+- Males have a higher attrition rate (17.01%) compared to females (14.80%).
+
+- Males also make up the majority of overall attrition (63.29%).
+
+**Age & Attrition**
+- Younger employees (18-24) have the highest attrition rate (39.18%), meaning almost 4 in 10 employees in this age group leave.
+
+- Employees aged 25-34 also have a high attrition rate (20.22%), which aligns with career transitions.
+
+- Attrition decreases significantly as employees get older (e.g., 35-44: 10.10%, 45-54: 10.20%, 55-64: 15.94%).
+
+**Education & Attrition**
+- High school graduates (18.24%) and bachelor’s degree holders (17.31%) have higher attrition compared to those with a master’s (14.57%) or doctorate (10.42%).
+
+- Doctorate holders are the most stable employees, making up only 2.11% of overall attrition.
+
+**Marital Status & Attrition**
+- Single employees have the highest attrition rate (25.53%), accounting for half (50.63%) of all attrition cases.
+
+- Married (12.48%) and divorced (10.09%) employees have much lower attrition, likely due to increased financial/job stability.
+
+**Intersectional Insights**
+- Single males have the highest attrition rate (26.94%), making up nearly 31% of all attrition cases.
+
+- Young females (18-24) have the highest attrition rate (48.65%), meaning almost half of them leave.
+
+- Older employees (35+) have much lower attrition rates across both genders.
 
 
+### SECTION 2: Work-Life Balance and Environment
 
+**Attrition by Distance from Home**
+- Employees who live far (21+ km) have the highest attrition rate (22.06%), making up 19% of overall attrition.
+
+- Those living moderately far (11-20 km) also have a high attrition rate (20%), accounting for 20.25% of overall attrition.
+
+- Interestingly, employees living very close (0-5 km) still experience attrition (13.77%), but they make up the largest portion (36.71%) of total attrition cases.
+
+**Attrition by Environment Satisfaction**
+- Low environment satisfaction leads to the highest attrition (25.35%), making up 30.38% of total attrition.
+
+- Employees with medium to very high satisfaction (13.45%-14.98%) have similar but lower attrition rates, meaning satisfaction likely influences retention.
+
+**Attrition by Relationship Satisfaction**
+- Employees with low relationship satisfaction have an attrition rate of 20.65%, higher than those with better relationships.
+
+- Employees with high, medium, or very high satisfaction show similar attrition rates (14.81% - 15.47%), suggesting that relationship satisfaction has a moderate but noticeable impact on retention.
+
+**Attrition by Work-Life Balance**
+- Poor work-life balance (31.25%) results in the highest attrition rate—nearly 1 in 3 employees with poor work-life balance leave.
+
+- Even employees with the “best” work-life balance (17.65%) leave at a notable rate, meaning other factors might be at play.
+
+- Employees with a “better” work-life balance (14.22%) make up the majority (53.59%) of overall attrition cases, likely because this is the largest group.
 
