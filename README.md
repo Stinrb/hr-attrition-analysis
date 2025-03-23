@@ -70,7 +70,7 @@ Employee attrition is a complex issue influenced by various personal, profession
 ### Overall Attrition Rate
 - The total attrition rate is 16.12% (237 out of 1,470 employees).
 
-### SECTION 1: Employee Demographics
+## SECTION 1: Employee Demographics
 
 **Gender & Attrition**
 - Males have a higher attrition rate (17.01%) compared to females (14.80%).
@@ -102,7 +102,7 @@ Employee attrition is a complex issue influenced by various personal, profession
 - Older employees (35+) have much lower attrition rates across both genders.
 
 
-### SECTION 2: Work-Life Balance and Environment
+## SECTION 2: Work-Life Balance and Environment
 
 **Attrition by Distance from Home**
 - Employees who live far (21+ km) have the highest attrition rate (22.06%), making up 19% of overall attrition.
