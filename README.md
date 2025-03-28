@@ -84,6 +84,15 @@ The dataset originates from Kaggle, while additional metadata and variable inter
 (Link: https://inseaddataanalytics.github.io/INSEADAnalytics/groupprojects/January2018FBL/IBM_Attrition_VSS.html)
 
 
+## Dataset Limitations
+
+- The dataset does not track the number of promotions an employee has received, only the years since the last promotion.
+
+- Employees with 0 years_since_last_promotion are assumed to be recently promoted, but we lack a timeline to confirm when the promotion occurred.
+
+- This limitation affects how we interpret career progression and promotion recency trends.
+
+
 ## Key Insights
 
 Employee attrition is a complex issue influenced by various personal, professional, and organizational factors. By analyzing patterns across demographics, work-life balance, career growth, job satisfaction, and workload history, we can uncover the key drivers of employee turnover.
@@ -127,9 +136,6 @@ Employee attrition is a complex issue influenced by various personal, profession
 - Single employees are more likely to leave thus, have the highest attrition rate (25.53%), accounting for half (50.63%) of all attrition cases. This could be due to their flexibility and fewer financial commitments.
 
 - Married (12.48%) and divorced (10.09%) employees have much lower attrition, likely due to increased family responsibilities and financial/job stability.
-
-
-### **Variable Combinations**
 
 
 **Age Group & Marital Status**
@@ -183,6 +189,19 @@ Employee attrition is a complex issue influenced by various personal, profession
     - Divorced Females (7.69%) and Males (11.43%) stay longer.
 
 
+**Key Summary for Section 1:**
+
+- Young, single employees are at the highest risk of leaving (~39%), highlighting the need for engagement and growth opportunities.
+
+- Higher education levels help with retention, especially at later career stages, suggesting career development programs such as upskilling/training could improve retention.
+
+- Marriage reduces attrition risk significantly (~12%).
+
+- Gender alone isn’t a major factor, but when combined with marital status, single males tend to leave more.
+
+- Life stability (age, marriage, and financial responsibilities) reduces attrition, meaning HR teams can tailor retention efforts based on these trends.
+
+
 ## SECTION 2: Work-Life Balance and Environment vs Attrition
 
 
@@ -211,43 +230,54 @@ Employee attrition is a complex issue influenced by various personal, profession
 
 **Work-life Balance**
 
-- Poor work-life balance (31.25%) results in the highest attrition rate—nearly 1 in 3 employees with poor work-life balance leave.
+- "Bad" work-life balance (31.25%) results in the highest attrition rate — nearly 1 out of 3 employees with "Bad" work-life balance leave.
 
-- Even employees with the “best” work-life balance (17.65%) leave at a notable rate, meaning other factors might be at play.
+- Even employees with the "Best" work-life balance (17.65%) leave at a notable rate, meaning other factors might be at play.
 
-- Employees with a “better” work-life balance (14.22%) make up the majority (53.59%) of overall attrition cases, likely because this is the largest group.
+- Employees with a "Better" work-life balance (14.22%) make up the majority (53.59%) of overall attrition cases, likely because this is the largest group.
 
 
 **Distance From Home and Work-life Balance**
 
-- "Bad" balance with Long commutes = Highest Attrition
+- "Bad" work-life balance with long commutes = Highest Attrition
 
     - Employees with both a "Bad" work-life balance and a long commute (11-20 km) have the highest attrition rate (50%), highlighting the strain of long commutes and poor work-life balance.
 
     - Those living far (21+ km) with a "Bad" work-life balance also have high attrition (30.77%), reinforcing the need for flexible work arrangements.
 
-- "Better" and "Best" Balance regardless of commute
+- "Better" and "Best" work-life balance regardless of distance commute
 
-    - Employees with a "Better" or "Best" work-life balance have much lower attrition rates across all distance categories—showing the importance of work-life balance in retention.
+    - Employees with a "Better" or "Best" work-life balance have much lower attrition rates across all distance categories—showing the importance of work-life balance in employee retention.
 
 
 **Environment Satisfaction Level and Work-life Balance**
 
-- "Bad" Work-Life Balance and "Low" Environment Satisfaction = Highest Attrition
+- "Bad" work-life balance and "Low" environment satisfaction = highest attrition
 
-    - Employees with Low Environment Satisfaction and a "Bad" Work-Life Balance have the highest attrition (45%), meaning a negative work atmosphere and poor balance are strong drivers of turnover.
+    - Employees with "Low" environment satisfaction and a "Bad" work-life balance have the highest attrition (45%), meaning an unfavourable work atmosphere and poor work-life balance are strong drivers of turnover.
 
-- Ideal Environment vs. "Bad" Work-life Balance
-    - Even employees with "Very High" Environment Satisfaction but "Bad" Work-Life Balance still leave at a high rate (36%), suggesting that work-life balance alone can outweigh a positive work environment.
+- Ideal environment vs. "Bad" work-life balance
+    - Even employees with "Very High" environment satisfaction but a "Bad" work-life balance still leave at a high rate (36%), suggesting that work-life balance alone can outweigh a positive work environment.
 
 - Best of both world
-    - Employees with both High/Very High Environment Satisfaction and a "Better" or "Best" Work-Life Balance have the lowest attrition (below 13%), proving that these two factors together create a strong retention effect.
+    - Employees with both "High"/"Very High" environment satisfaction and a "Better" or "Best" work-life balance have the lowest attrition (below 13%), proving that these two factors together create a strong retention effect.
+
+
+**Key Summary for Section 2:**
+
+- Work-life balance plays a major role in attrition, especially when combined with factors like distance from home or poor environment satisfaction.
+
+- Even employees with very high environment satisfaction leave if their work-life balance is poor.
+
+- Distance from Home Plays a Role – Employees close to work and with better work-life balance tend to stay longer. The farther employees live, the more likely they are to leave. Employees need flexible work arrangements to help lessen the attrition.
+
+- Addressing Relationship Satisfaction – While not as strong of a factor, improving relationships at work could still lower attrition.
 
 
 ## SECTION 3: Career Growth and Development vs. Attrition
 
 
-**Attrition by Department and Job Role**
+**Department and Job Role**
 
 - Sales Representatives have the highest attrition rate (39.76%), indicating this is a high-turnover role.
 
@@ -258,9 +288,9 @@ Employee attrition is a complex issue influenced by various personal, profession
 - Managers and Directors in R&D and Sales have the lowest attrition (≤5.56%), meaning experienced employees in leadership roles tend to stay longer.
 
 
-**Attrition by Training Count from Previous Year**
+**Training Count from Previous Year**
 
-- Employees who received no training have the highest attrition (27.78%), suggesting that lack of development opportunities leads to turnover.
+- Employees with no training have the highest attrition (27.78%), suggesting that lack of development opportunities leads to turnover.
 
 - Those with low training (1-2 sessions) still show a high attrition rate (17.31%).
 
@@ -269,21 +299,127 @@ Employee attrition is a complex issue influenced by various personal, profession
 - High training (5+ sessions) has the lowest attrition rate (10.87%), reinforcing the role of continuous learning in retention.
 
 
-**Attrition by Company and Job Role Tenure**
+**Company and Job Role Tenure**
 
-- Employees new to the company (0 years tenure) have a very high attrition rate (36.36%), showing that early retention efforts are crucial.
+- Attrition is highest for newly hired employees (36.36%) and remains high for those in the early career phase (24.88%) — this suggests that employees in their first few years might leave due to unmet expectations, lack of job fit, or career uncertainty.
 
-- Even long-term employees (11-15 years at the company) with 0-2 years in a new role still experience high attrition (33.33%), indicating challenges in role transitions.
+- Attrition gradually declines as tenure increases, meaning employees who stay longer are less likely to leave, reinforcing the idea that stability increases retention.
 
-- The highest attrition happens within the first 5 years in a role, regardless of company tenure.
-
-- Employees who have stayed in a role for 6+ years show significantly lower attrition (~8-12%), meaning stability increases retention.
+- However, even experienced professionals (11-15 years tenure) show some attrition (7.04%)—likely due to career stagnation, lack of opportunities, or work dissatisfaction.
 
 
-**Attrition by Company Tenure and Years Since Last Promotion**
+**Company Tenure and Years Since Last Promotion**
 
-- Employees with mid-career delays (6-10 years since last promotion) have a high attrition rate (~19%), showing dissatisfaction with growth opportunities.
+- Recently promoted early-career employees have a high attrition rate (27.68%), which might suggest some dissatisfaction even after promotions. One possible cause is that these groups expected more growth or income increase.
 
-- Recently promoted employees (0 years since last promotion) have lower attrition (~9-10%), meaning promotions help retain employees.
+- Mid-career employees (7-10 years) who haven’t been promoted in 6+ years (19.30% attrition rate) seem at risk, reinforcing that delayed promotions can contribute to turnover.
 
-- Employees with 11+ years since their last promotion have moderate attrition (~11%), possibly because they have either settled into their roles or have fewer external opportunities.
+- Veteran employees (16+ years) with stagnant growth (11.27%) still leave, though at lower rates—possibly due to late-career job fatigue or retirement plans.
+
+- Employees with recent promotions generally have lower attrition, confirming that promotions help retain talent.
+
+
+**Key Summary of Section 3:**
+
+- Sales & Entry-Level Roles Need Attention – Sales reps, lab technicians, and early-career employees have the highest attrition.
+
+- Training Helps Retention – Lack of training is a major attrition factor, while employees with 5+ training sessions leave less. This shows that upskilling/training is a big factor for retaining employees in the organization.
+
+- Early Attrition is the Biggest Challenge – The first 2 years in a role or company are when most employees leave. This reinforces the need for engagement for young employees.
+
+- Promotions Aren’t a Silver Bullet – Recently promoted employees still leave, meaning other factors like workload, satisfaction, or pay might play a role.
+
+
+## **SECTION 4: Job Satisfaction and Compensation vs. Attrition**
+
+
+**Job Satisfaction and Attrition**
+
+- Employees with Low Job Satisfaction (22.84% attrition rate) have a significantly higher attrition rate than those with Very High Job Satisfaction (11.33%).
+
+- Even employees with High or Medium Job Satisfaction (~16%) show notable attrition, but it drops as satisfaction increases.
+
+
+**Job Involvement and Attrition**
+
+- Employees with Low Job Involvement (33.73% attrition rate) are leaving at an alarming rate, nearly four times the rate of those with Very High Job Involvement (9.03%).
+
+- Those with High (14.40%) and Medium (18.93%) Job Involvement also experience noticeable attrition, but they fare better than low-involvement employees.
+
+
+**Income Level and Attrition**
+
+- Employees in the lowest income quartile ("<= 25%", 29.27% attrition rate) are the most likely to leave, showing a threefold difference from those in the highest quartile ("> 75%", 10.33%).
+
+- There’s a steep decline in attrition as income increases, suggesting financial compensation is a strong factor in retention.
+
+
+**Salary Hike and Attrition**
+
+- The lowest salary hike group (11%-15%, 16.32%) has the highest number of employees but also one of the highest attrition rates.
+
+- Employees who received higher salary hikes (21%-25%, 17.54%) still had a high attrition rate, indicating that salary hikes alone may not be enough to retain employees.
+
+
+**Overtime and Attrition**
+
+- Employees who work overtime (30.53%) are leaving at nearly three times the rate of those who do not (10.44%).
+
+- Even among highly satisfied employees, overtime leads to higher attrition, emphasizing the negative impact of excessive workload on retention.
+
+
+**Job Satisfaction + Income Level**
+
+- Low Job Satisfaction & Low Income ("<= 25%") is a double risk: attrition reaches 42.86% in this group.
+
+- Even employees with High or Very High Job Satisfaction in lower-income brackets (~22%-29%) are still leaving at a high rate, reinforcing the idea that low income overrides job satisfaction as a retention factor.
+
+
+**Job Satisfaction + Salary Hike**
+
+- Employees with Low Job Satisfaction continue to leave despite receiving the highest salary hikes. Those who received a 21%-25% increase still have an attrition rate of 32.43%, while those with 16%-20% hikes see 27.14% attrition.
+
+- In contrast, employees with Very High Job Satisfaction are less likely to leave, even with smaller raises. Those with a 11%-15% hike show an attrition rate of just 12.46%, and with 16%-20% hikes, attrition drops further to 8.55%.
+
+
+**Job Satisfaction + Overtime**
+
+- Low Satisfaction + Overtime employees (35.71%) are leaving significantly more than High Satisfaction + No Overtime (9.97%), confirming that excessive work hours and dissatisfaction drive turnover.
+
+
+**Job Involvement + Income Level**
+- Employees with Low Job Involvement and Low Income (bottom 25%) have the highest attrition rate at 57.14%, with more than half leaving. Even those with Medium Job Involvement but low salaries experience 37.89% attrition.
+
+- However, for employees with High Job Involvement, attrition remains low across income groups. Those in the top 25% salary bracket have an attrition rate of just 8.84%, while even those with a below-average income (≤ 50%) show only 13.91% attrition.
+
+
+**Job Involvement + Salary Hike**
+- For employees with Low Job Involvement, salary hikes do not prevent attrition. Even with a 21%-25% salary hike, 30.77% still leave, and with 11%-15% hikes, attrition is even higher at 39.58%.
+
+- For Highly Involved employees, salary hikes are more effective. Those with a 11%-15% increase have an attrition rate of just 9.21%, and at 21%-25% hikes, attrition falls further to 7.14%—one of the lowest rates overall.
+
+
+**Job Involvement + Overtime**
+
+- Low Involvement + Overtime (52% attrition rate!) is the most vulnerable group.
+
+- Even High Involvement employees with Overtime (28.16%) are at risk, showing that even motivated employees leave when overworked.
+
+
+**Income Level + Overtime**
+
+- Lowest income employees working overtime (58.49% attrition rate!) have the highest attrition in the dataset.
+
+- Even at higher income levels, employees working overtime leave at nearly double the rate of those not working overtime.
+
+
+**Key Summary of Section 4:**
+
+- Low job satisfaction, low job involvement, low income, and overtime remain the strongest predictors of attrition. Employees experiencing one or more of these factors are at the highest risk of leaving.
+
+- Financial compensation plays a major role, but increasing salaries alone is not enough. Employees with low satisfaction or involvement continue to leave despite high salary hikes. Job satisfaction, involvement, and workload balance are equally crucial.
+
+- Overtime is one of the most critical factors influencing attrition. Even highly engaged and well-paid employees experience significantly higher attrition rates when working overtime.
+
+- Higher salary hikes reduce attrition—but only for engaged employees. For those with low job involvement, even a 21%-25% salary increase does little to prevent turnover, whereas highly engaged employees are more likely to stay with even modest salary increases.
+
