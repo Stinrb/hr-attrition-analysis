@@ -34,11 +34,16 @@ The dataset consists of 1,470 employees, reflecting a diverse workforce across d
 
 The workforce is 60% male (882 employees) and 40% female (588 employees). Employees range from 18 to 60 years old, with an average age of 37. The majority (over 70%) are between 25 and 44, the prime working years where career growth and stability are critical factors in retention.
 
-
+**Gender Distribution**
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_proportions.png" width="40%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_proportions.png" width="50%" />
 </p>
-
+  
+  
+**Age Group Distribution**
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group.png" width="60%" />
+</p>
 
 **Education Background:**
 
