@@ -36,23 +36,32 @@ The workforce is 60% male (882 employees) and 40% female (588 employees). Employ
 
 **Gender Distribution**
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_proportions.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_proportions.png" width="40%" />
 </p>
   
   
 **Age Group Distribution**
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group.png" width="60%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group.png" width="50%" />
 </p>
 
 **Education Background:**
 
 A well-educated workforce is a key asset. Nearly 39% hold a bachelor’s degree, while 27% have a master’s degree. However, 19% are undergraduates, and 12% have education below the college level, highlighting a mix of academic qualifications that contribute to workplace diversity.
 
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level.png" width="50%" />
+</p>
+
 
 **Marital Status & Work Commitments:**
 
 Life stages vary across the workforce: 46% are married, 32% are single, and 22% are divorced. These personal circumstances can influence career decisions, with single employees often being more mobile, while married employees may prioritize stability.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status.png" width="40%" />
+</p>
+
 
 With this foundation, we dive deeper into understanding what drives employees to stay or leave. By examining key factors such as job satisfaction, compensation, and career progression, this analysis aims to uncover actionable insights that help businesses foster a thriving work environment.
 
