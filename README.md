@@ -61,7 +61,7 @@ Life stages vary across the workforce: 46% are married, 32% are single, and 22% 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status.png" width="40%" />
 </p>
-
+https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/attrition_proportion.png
 
 With this foundation, we dive deeper into understanding what drives employees to stay or leave. By examining key factors such as job satisfaction, compensation, and career progression, this analysis aims to uncover actionable insights that help businesses foster a thriving work environment.
 
@@ -108,11 +108,11 @@ The dataset originates from Kaggle, while additional metadata and variable inter
 
 ## Dataset Limitations
 
-- The dataset does not track the number of promotions an employee has received, only the years since the last promotion.
+1. The dataset does not contain date columns, limiting our ability to analyze trends over time.
+2. It does not track the number of promotions an employee has received, only the years since their last promotion.
+3. Employees with 0 years_since_last_promotion are assumed to have been recently promoted, but without a timeline, we cannot confirm when the promotion occurred.
 
-- Employees with 0 years_since_last_promotion are assumed to be recently promoted, but we lack a timeline to confirm when the promotion occurred.
-
-- This limitation affects how we interpret career progression and promotion recency trends.
+These limitations affect how we interpret career progression and promotion recency trends.
 
 
 ## Key Insights
@@ -124,13 +124,17 @@ Employee attrition is a complex issue influenced by various personal, profession
 
 - The total attrition rate is 16.12% (237 out of 1,470 employees).
 
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/attrition_proportion.png" width="40%" />
+</p>
+
 
 ## SECTION 1: Employee Demographics vs. Attrition
 
 
 **Gender**
 
-- Males have a higher attrition rate (17.01%) compared to females (14.80%).
+- Males have a higher attrition rate (17.01%) compared to females (14.80%) relative to their respective groups.
 
 - Males also make up the majority of overall attrition (63.29%).  
 
