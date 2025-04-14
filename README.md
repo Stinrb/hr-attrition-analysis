@@ -142,22 +142,14 @@ Employee attrition is a complex issue influenced by various personal, profession
 
 **Age**
 
-- The 25–34 age group contributes the most to overall attrition, making up 47.26% of all attrition cases. This aligns with early-career phases marked by exploration, career shifts, and job mobility—factors that contribute to a relatively high attrition rate of 20.22% in this group.
+- 18–24 year-olds show the highest attrition rate at 39.18%, indicating a strong tendency to leave despite being the smallest group by population size. This could reflect early-career instability or dissatisfaction with entry-level roles.
 
-- Despite having a smaller population, the 18–24 group has the highest attrition rate at 39.18%, indicating significant instability among younger employees who may still be in transitional or entry-level roles.
+- The 25–34 group has the second-highest rate at 20.22%. Given that this group also has the largest population, this suggests that not only is attrition relatively high here, but it also affects the company more broadly.
 
-- Attrition decreases with age, suggesting greater career stability and organizational commitment over time:
-
-    - 35–44: 10.10% attrition rate
-
-    - 45–54: 10.20%
-
-    - 55–64: 15.94%
-
-This pattern reinforces that employees who remain past their early career years are more likely to stay long-term.
+- Older age groups (35–44, 45–54, and 55–64) display much lower attrition rates (around 10–16%), suggesting stronger job stability, possible career satisfaction, or more investment in long-term tenure.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_overall_attrition_rate.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_count_and_attrition_rate.png" width="50%" />
 </p>
 
 
