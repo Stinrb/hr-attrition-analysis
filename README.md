@@ -45,7 +45,7 @@ The workforce is 60% male (882 employees) and 40% female (588 employees). Employ
 
 **Education Background:**
 
-A well-educated workforce is a key asset. Nearly 39% hold a bachelor’s degree, while 27% have a master’s degree. However, 19% are undergraduates, and 12% have education below the college level, highlighting a mix of academic qualifications that contribute to workplace diversity.
+A well-educated workforce is a key asset. Nearly 39% hold a bachelor’s degree (572 employees), while 27% have a master’s degree (398 employees). However, 19% are undergraduates (282 employees), and 12% are from high school level (170 employees). Lastly, doctorate degree holds a small portion of 3% (48 employees), this data highlights a mix of academic qualifications that contribute to workplace diversity.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level.png" width="45%" />
@@ -54,7 +54,7 @@ A well-educated workforce is a key asset. Nearly 39% hold a bachelor’s degree,
 
 **Marital Status & Work Commitments:**
 
-Life stages vary across the workforce: 46% are married, 32% are single, and 22% are divorced. These personal circumstances can influence career decisions, with single employees often being more mobile, while married employees may prioritize stability.
+Life stages vary across the workforce: 46% are married (673 employees), 32% are single (470 employees), and 22% are divorced (327 employees). These personal circumstances can influence career decisions, with single employees often being more mobile, while married employees may prioritize stability.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status.png" width="45%" />
@@ -135,6 +135,7 @@ Employee attrition is a complex issue influenced by various personal, profession
 
 - However, when examining attrition rates within each gender group, males have a slightly higher rate (17.01%) compared to females (14.80%).
 
+
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_vs_attrition.png" width="45%" />
 </p>
@@ -149,87 +150,72 @@ Employee attrition is a complex issue influenced by various personal, profession
 - Older age groups (35–44, 45–54, and 55–64) display much lower attrition rates (around 10–16%), suggesting stronger job stability, possible career satisfaction, or more investment in long-term tenure.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_count_and_attrition_rate.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_count_and_attrition_rate.png" width="45%" />
 </p>
 
 
 **Education Level**
 
-- Employees with a Bachelor’s degree account for the largest share of total attrition (41.77%), likely due to their majority presence in the workforce and broader career opportunities available at that level.
+- Employees with a High School education have the highest attrition rate (18.24%), though they account for a smaller portion of overall attrition (13.08%).
 
-- Those with Master’s (24.47%) and Undergraduate (18.57%) education levels follow in overall attrition representation, reflecting a steady mid-range turnover across advanced learners and those still pursuing formal degrees.
+- Those with a Bachelor’s degree show a slightly lower attrition rate (17.31%) but contribute the most to total attrition (41.77%) due to their large population size.
 
-- Interestingly, employees with only a High School education show a slightly higher attrition rate (18.24%) than those with a Master’s (14.57%) or Undergraduate (15.60%) degrees—possibly due to limited growth paths or job satisfaction.
+- Undergraduate and Master’s degree holders have moderate attrition rates (15.60% and 14.57%, respectively), suggesting more stability.
 
-- On the other end of the spectrum, Doctorate holders exhibit the lowest attrition both in rate (10.42%) and overall contribution (2.11%), suggesting stronger retention among highly specialized professionals.
+- Employees with a Doctorate have the lowest attrition rate (10.42%) and the smallest overall impact (2.11%).
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_overall_attrition_rate.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_count_and_attrition_rate.png" width="45%" />
 </p>
 
 
 **Marital Status**
 
-- Single employees have the highest overall attrition at 50.63%, with a corresponding attrition rate within their group at 25.53%. This may indicate that employees who are likely earlier in their careers or less settled tend to leave at a high rate due to their flexibility and fewer financial commitments.
+- Single employees have the highest attrition rate at 25.53% and contribute 50.63% of overall attrition, which could be linked to early career transitions or life changes.
 
-- Married employees, while making up the largest group, show a much lower attrition rate of 12.48%, contributing 35.44% to overall attrition, pointing to greater stability in this group likely due to increased family responsibilities.
+- Married employees have a lower attrition rate (12.48%) and make up 35.44% of overall attrition, indicating more stability in this group.
 
-- Divorced employees show the lowest attrition rate at 10.09%, with 13.92% contribution to overall attrition. likely due to increased family responsibilities and financial/job stability.
+- Divorced employees have the lowest attrition rate (10.09%) but still contribute 13.92% to overall attrition.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_overall_attrition_rate.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_count_and_attrition_rate.png" width="45%" />
 </p>
 
 
 **Age Group & Marital Status**
 
-- Young & Single = Highest Attrition
+- Young single employees (18–24) have the highest attrition rate at 50.00%, contributing 11.81% to overall attrition. Similarly, single employees aged 25–34 also show a high attrition rate of 32.07%, with the largest group contribution at 24.89%.
 
-    - 18-24 Single employees have a 50% attrition rate, the highest among all groups.
+- Married employees aged 18–24 and single employees aged 55–64 also show elevated attrition rates at 30.00% and 26.32%, respectively, though their overall contributions are smaller.
 
-    - 25-34 Single employees follow at 32.07% attrition—still high.
+- Married employees aged 25–34 show a moderate attrition rate of 16.05%, contributing 16.46% to total attrition. This is notably lower than their single counterparts in the same age group.
 
-- Married employees have significantly lower attrition
+- Other groups, including divorced and married employees across older age groups (35–64), have attrition rates below 15%, with smaller impacts on overall attrition.
 
-    - 25-34 Married attrition drops to 16.05% (half of their single counterparts).
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/single_count_and_attrition_rate.png" width="45%" />
+</p>
 
-    - 35-44 Married employees have only a 7.53% attrition rate—showing long-term career stability.
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/married_count_and_attrition_rate.png" width="45%" />
+</p>
 
-- Older employees (45+) have lower attrition, regardless of status
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/divorced_count_and_attrition_rate.png" width="45%" />
+</p>
 
-    - Even 55-64 Single employees (26.32%) have a lower attrition rate than younger singles.
+**Age Group and Gender**
+
+- Male employees in the 25-34 age group have the highest attrition rate (20.47%), contributing 29.11% of overall attrition for males.
+
+- Female employees in the 18-24 age group have the highest attrition rate (48.65%), which significantly impacts overall female attrition (though their overall contribution is smaller compared to males).
 
 
 **Age Group & Education Level**
 
-- Higher education reduces attrition
+- Employees with a Bachelor’s degree in the 25-34 age group have the highest attrition rate (20.69%) and contribute 20.25% of overall attrition for this age group.
 
-    - 18-24 Bachelor's holders have a 48.65% attrition rate, nearly half leave.
-
-    - High school graduates (38.89%) also show high attrition, suggesting fewer growth opportunities.
-
-    - In contrast, Master’s degree holders in the 35-44 age group have only an 8.50% attrition rate.
-
-- Higher education with higher age group further decreases attrition rate.
-
-    - 35-44: 4.55% attrition rate.
-
-    - 55-64: 0% attrition rate.
-
-
-**Gender and Marital Status**
-
-- Single Males have the highest attrition rate (26.94%)
-
-    - Single Females also have high attrition (23.62%), but lower than males.
-
-- Married employees show strong job stability
-
-    - Married Males (13.22%) and Females (11.40%) have much lower attrition than singles.
-
-- Divorced employees have the lowest attrition
-
-    - Divorced Females (7.69%) and Males (11.43%) stay longer.
+- Employees with a Master’s degree in the 25-34 age group also have a high attrition rate (23.31%), contributing 13.08% to overall attrition.
 
 
 **Key Summary for Section 1:**
@@ -240,12 +226,10 @@ Employee attrition is a complex issue influenced by various personal, profession
 
 - Marriage reduces attrition risk significantly (~12%).
 
-- Gender alone isn’t a major factor, but when combined with marital status, single males tend to leave more.
-
-- Life stability (age, marriage, and financial responsibilities) reduces attrition, meaning HR teams can tailor retention efforts based on these trends.
+- Life stability (age, marriage, and financial responsibilities) reduces attrition, retention strategies can factor in these variables.
 
 
-## SECTION 2: Work-Life Balance and Environment vs Attrition
+## SECTION 2: Work-Life Balance and Environment vs. Attrition
 
 
 **Distance from Home**
