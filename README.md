@@ -193,16 +193,11 @@ Employee attrition is a complex issue influenced by various personal, profession
 - Other groups, including divorced and married employees across older age groups (35–64), have attrition rates below 15%, with smaller impacts on overall attrition.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/single_count_and_attrition_rate.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/single_count_and_attrition_rate.png" width="30%" style="margin-right: 10px;" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/married_count_and_attrition_rate.png" width="30%" style="margin: 0 10px;" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/divorced_count_and_attrition_rate.png" width="30%" style="margin-left: 10px;" />
 </p>
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/married_count_and_attrition_rate.png" width="45%" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/divorced_count_and_attrition_rate.png" width="45%" />
-</p>
 
 **Age Group and Gender**
 
