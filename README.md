@@ -202,12 +202,20 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Interestingly, employees living very close (0-5 km) still experience attrition (13.77%), but they make up the largest portion (36.71%) of total attrition cases.
 
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/distance_from_home.png" width="45%" />
+</p>
+
 
 **Environment Satisfaction**
 
 - Low environment satisfaction leads to the highest attrition (25.35%), making up 30.38% of total attrition.
 
 - Employees with medium to very high satisfaction (13.45%-14.98%) have similar but lower attrition rates, meaning satisfaction likely influences retention.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/environment_satisfaction.png" width="45%" />
+</p>
 
 
 **Relationship Satisfaction**
@@ -216,6 +224,9 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Employees with high, medium, or very high satisfaction show similar attrition rates (14.81% - 15.47%), suggesting that relationship satisfaction has a moderate but noticeable impact on retention.
 
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/relationship_satisfaction.png" width="45%" />
+</p>
 
 **Work-life Balance**
 
@@ -225,31 +236,9 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Employees with a "Better" work-life balance (14.22%) make up the majority (53.59%) of overall attrition cases, likely because this is the largest group.
 
-
-**Distance From Home and Work-life Balance**
-
-- "Bad" work-life balance with long commutes = Highest Attrition
-
-    - Employees with both a "Bad" work-life balance and a long commute (11-20 km) have the highest attrition rate (50%), highlighting the strain of long commutes and poor work-life balance.
-
-    - Those living far (21+ km) with a "Bad" work-life balance also have high attrition (30.77%), reinforcing the need for flexible work arrangements.
-
-- "Better" and "Best" work-life balance regardless of distance commute
-
-    - Employees with a "Better" or "Best" work-life balance have much lower attrition rates across all distance categories—showing the importance of work-life balance in employee retention.
-
-
-**Environment Satisfaction Level and Work-life Balance**
-
-- "Bad" work-life balance and "Low" environment satisfaction = highest attrition
-
-    - Employees with "Low" environment satisfaction and a "Bad" work-life balance have the highest attrition (45%), meaning an unfavourable work atmosphere and poor work-life balance are strong drivers of turnover.
-
-- Ideal environment vs. "Bad" work-life balance
-    - Even employees with "Very High" environment satisfaction but a "Bad" work-life balance still leave at a high rate (36%), suggesting that work-life balance alone can outweigh a positive work environment.
-
-- Best of both world
-    - Employees with both "High"/"Very High" environment satisfaction and a "Better" or "Best" work-life balance have the lowest attrition (below 13%), proving that these two factors together create a strong retention effect.
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/work-life_balance.png" width="45%" />
+</p>
 
 
 **Key Summary for Section 2:**
