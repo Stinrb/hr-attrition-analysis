@@ -30,7 +30,7 @@ The dataset consists of 1,470 employees, reflecting a diverse workforce across d
 
 **Gender & Age:**
 
-The workforce is 60% male (882 employees) and 40% female (588 employees). Employees range from 18 to 60 years old, with an average age of 37. The majority (over 70%) are between 25 and 44, the prime working years where career growth and stability are critical factors in retention.
+The workforce comprises 60% male employees (882) and 40% female employees (588). Employee ages range from 18 to 60 years, with an average age of 37. Notably, more than 70% of employees are between the ages of 25 and 44, which are critical years for career development and employee retention.
 
 **Gender Distribution**
 <p align="center">
@@ -45,7 +45,7 @@ The workforce is 60% male (882 employees) and 40% female (588 employees). Employ
 
 **Education Background:**
 
-A well-educated workforce is a key asset. Nearly 39% hold a bachelor’s degree (572 employees), while 27% have a master’s degree (398 employees). However, 19% are undergraduates (282 employees), and 12% are from high school level (170 employees). Lastly, doctorate degree holds a small portion of 3% (48 employees), this data highlights a mix of academic qualifications that contribute to workplace diversity.
+Approximately 39% of employees have a bachelor’s degree (572), 27% hold a master’s degree (398), 19% are undergraduates (282), and 12% completed high school (170). Those with a doctorate represent 3% (48). This data underscores the diverse academic qualifications within the workplace.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level.png" width="45%" />
@@ -54,7 +54,7 @@ A well-educated workforce is a key asset. Nearly 39% hold a bachelor’s degree 
 
 **Marital Status & Work Commitments:**
 
-Life stages vary across the workforce: 46% are married (673 employees), 32% are single (470 employees), and 22% are divorced (327 employees). These personal circumstances can influence career decisions, with single employees often being more mobile, while married employees may prioritize stability.
+The workforce consists of 46% married employees (673), 32% single (470), and 22% divorced (327).
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status.png" width="45%" />
@@ -114,7 +114,7 @@ These limitations affect how we interpret career progression and promotion recen
 
 ## Key Insights
 
-Employee attrition is a complex issue influenced by various personal, professional, and organizational factors. By analyzing patterns across demographics, work-life balance, career growth, job satisfaction, and workload history, we can uncover the key drivers of employee turnover.
+Employee attrition results from a range of personal, professional, and organizational factors. A thorough analysis of these variables is essential for developing effective retention strategies and cultivating a positive work environment.
 
 
 ### Overall Attrition Rate
@@ -182,44 +182,11 @@ Employee attrition is a complex issue influenced by various personal, profession
 </p>
 
 
-**Age Group & Marital Status**
-
-- Young single employees (18–24) have the highest attrition rate at 50.00%, contributing 11.81% to overall attrition. Similarly, single employees aged 25–34 also show a high attrition rate of 32.07%, with the largest group contribution at 24.89%.
-
-- Married employees aged 18–24 and single employees aged 55–64 also show elevated attrition rates at 30.00% and 26.32%, respectively, though their overall contributions are smaller.
-
-- Married employees aged 25–34 show a moderate attrition rate of 16.05%, contributing 16.46% to total attrition. This is notably lower than their single counterparts in the same age group.
-
-- Other groups, including divorced and married employees across older age groups (35–64), have attrition rates below 15%, with smaller impacts on overall attrition.
-
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/single_count_and_attrition_rate.png" width="30%" style="margin-right: 10px;" />
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/married_count_and_attrition_rate.png" width="30%" style="margin: 0 10px;" />
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/divorced_count_and_attrition_rate.png" width="30%" style="margin-left: 10px;" />
-</p>
-
-
-**Age Group and Gender**
-
-- Male employees in the 25-34 age group have the highest attrition rate (20.47%), contributing 29.11% of overall attrition for males.
-
-- Female employees in the 18-24 age group have the highest attrition rate (48.65%), which significantly impacts overall female attrition (though their overall contribution is smaller compared to males).
-
-
-**Age Group & Education Level**
-
-- Employees with a Bachelor’s degree in the 25-34 age group have the highest attrition rate (20.69%) and contribute 20.25% of overall attrition for this age group.
-
-- Employees with a Master’s degree in the 25-34 age group also have a high attrition rate (23.31%), contributing 13.08% to overall attrition.
-
-
 **Key Summary for Section 1:**
 
 - Young, single employees are at the highest risk of leaving (~39%), highlighting the need for engagement and growth opportunities.
 
 - Higher education levels help with retention, especially at later career stages, suggesting career development programs such as upskilling/training could improve retention.
-
-- Marriage reduces attrition risk significantly (~12%).
 
 - Life stability (age, marriage, and financial responsibilities) reduces attrition, retention strategies can factor in these variables.
 
