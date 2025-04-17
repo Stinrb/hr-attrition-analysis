@@ -191,7 +191,7 @@ Employee attrition results from a range of personal, professional, and organizat
 - Life stability (age, marriage, and financial responsibilities) reduces attrition, retention strategies can factor in these variables.
 
 
-## SECTION 2: Work-Life Balance and Environment vs. Attrition
+## SECTION 2: Work-Life Balance & Environment vs. Attrition
 
 
 **Distance from Home**
@@ -243,16 +243,18 @@ Employee attrition results from a range of personal, professional, and organizat
 
 **Key Summary for Section 2:**
 
-- Work-life balance plays a major role in attrition, especially when combined with factors like distance from home or poor environment satisfaction.
+- Work-Life Balance has a strong link to attrition. Employees with the poorest balance (Level 1) show the highest attrition rate at 36.84%, contributing 25.95% of overall attrition. As balance improves, attrition rates steadily decline—indicating that flexible work policies could be a key retention strategy.
 
-- Even employees with very high environment satisfaction leave if their work-life balance is poor.
+- Environment Satisfaction also influences attrition. Employees with Low satisfaction report a high attrition rate of 25.35%, contributing 30.38% of total attrition. Meanwhile, those with Very High satisfaction still leave at a modest rate (13.45%), suggesting that even a great environment can’t offset deeper issues like work-life imbalance.
 
-- Distance from Home Plays a Role – Employees close to work and with better work-life balance tend to stay longer. The farther employees live, the more likely they are to leave. Employees need flexible work arrangements to help lessen the attrition.
+- Distance from Home impacts attrition likelihood. Those living Far (21+ km) away show the highest attrition rate (22.06%) among all distance groups, while those living Very Close (0–5 km) have the lowest rate at 13.77%. Commuting stress may drive higher turnover for distant employees.
 
-- Addressing Relationship Satisfaction – While not as strong of a factor, improving relationships at work could still lower attrition.
+- Relationship Satisfaction shows a subtler effect. Although differences between satisfaction levels aren’t drastic, employees reporting Low satisfaction still display an elevated attrition rate of 20.65%, implying personal well-being can affect retention in more nuanced ways.
+
+*For deeper insights (e.g., combinations like Work-Life Balance + Distance or Environment Satisfaction + Age), please explore the interactive dashboard.*
 
 
-## SECTION 3: Career Growth and Development vs. Attrition
+## SECTION 3: Career Growth & Development vs. Attrition
 
 
 **Department and Job Role**
@@ -308,7 +310,7 @@ Employee attrition results from a range of personal, professional, and organizat
 - Promotions Aren’t a Silver Bullet – Recently promoted employees still leave, meaning other factors like workload, satisfaction, or pay might play a role.
 
 
-## **SECTION 4: Job Satisfaction and Compensation vs. Attrition**
+## **SECTION 4: Job Satisfaction & Compensation vs. Attrition**
 
 
 **Job Satisfaction and Attrition**
@@ -404,7 +406,7 @@ Employee attrition results from a range of personal, professional, and organizat
 - Higher salary hikes reduce attrition—but only for engaged employees. For those with low job involvement, even a 21%-25% salary increase does little to prevent turnover, whereas highly engaged employees are more likely to stay with even modest salary increases.
 
 
-## **SECTION 5: Workload and Career History vs. Attrition
+## **SECTION 5: Workload & Career History vs. Attrition
 
 
 **Business Travel**
