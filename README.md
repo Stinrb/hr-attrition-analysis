@@ -259,13 +259,13 @@ Employee attrition results from a range of personal, professional, and organizat
 
 **Department and Job Role**
 
-- Sales Representatives have the highest attrition rate (39.76%), indicating this is a high-turnover role.
+- Sales Representatives have the highest attrition rate (39.76%), making up 13.92% of overall attrition, highlighting a potential issue in sales performance pressure or lack of growth in this role.
 
-- Laboratory Technicians also experience high attrition (23.94%), making them the most at-risk employees in R&D.
+- Laboratory Technicians (23.94%) and HR staff (23.08%) also show elevated attrition rates, pointing to potential dissatisfaction in operational or administrative roles.
 
-- Sales Executives (17.48%) and Research Scientists (16.10%) show moderate attrition.
+- Sales Executives follow with a moderate attrition rate of 17.48%, but contribute significantly to total attrition (24.05%) due to their volume in the organization.
 
-- Managers and Directors in R&D and Sales have the lowest attrition (≤5.56%), meaning experienced employees in leadership roles tend to stay longer.
+- Research Scientists also contribute notably (19.83% of overall attrition) with a lower attrition rate (16.10%), suggesting moderate risk but important due to their critical role in R&D.
 
 
 **Training Count from Previous Year**
