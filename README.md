@@ -259,9 +259,9 @@ Employee attrition results from a range of personal, professional, and organizat
 
 **Department and Job Role**
 
-- Sales Representatives have the highest attrition rate (39.76%), making up 13.92% of overall attrition, highlighting a potential issue in sales performance pressure or lack of growth in this role.
+- Sales Representatives have the highest attrition rate (39.76%), making up 13.92% of overall attrition.
 
-- Laboratory Technicians (23.94%) and HR staff (23.08%) also show elevated attrition rates, pointing to potential dissatisfaction in operational or administrative roles.
+- Laboratory Technicians (23.94%) and HR staff (23.08%) also show notably high attrition, highlighting risks in support and technical roles.
 
 - Sales Executives follow with a moderate attrition rate of 17.48%, but contribute significantly to total attrition (24.05%) due to their volume in the organization.
 
@@ -270,44 +270,44 @@ Employee attrition results from a range of personal, professional, and organizat
 
 **Training Count from Previous Year**
 
-- Employees with no training have the highest attrition (27.78%), suggesting that lack of development opportunities leads to turnover.
+- Employees with no training show the highest attrition rate at 27.78%, suggesting a strong link between lack of learning opportunities and employee turnover.
 
-- Those with low training (1-2 sessions) still show a high attrition rate (17.31%).
+- Those receiving low to moderate training (1–4 sessions) have moderate attrition rates (17.31% and 15.47%) but account for 85% of overall attrition, likely due to their large population share.
 
-- Moderate training (3-4 sessions) reduces attrition (15.47%), and
-
-- High training (5+ sessions) has the lowest attrition rate (10.87%), reinforcing the role of continuous learning in retention.
+- High training exposure (5+) is associated with the lowest attrition rate (10.87%), indicating that continuous development can boost retention.
 
 
 **Company and Job Role Tenure**
 
-- Attrition is highest for newly hired employees (36.36%) and remains high for those in the early career phase (24.88%) — this suggests that employees in their first few years might leave due to unmet expectations, lack of job fit, or career uncertainty.
+- Newly hired employees (0 years at company, 0–2 years in role) face the highest attrition rate at 36.36%, followed by early-career employees (1–3 years tenure, 0–2 years in role) at 24.88%, contributing the most to overall attrition (44.73%).
 
-- Attrition gradually declines as tenure increases, meaning employees who stay longer are less likely to leave, reinforcing the idea that stability increases retention.
+- Attrition decreases with tenure—those in the 6–10 year company range and 3–10 years in role show much lower attrition rates (7–12%), signaling better stability.
 
-- However, even experienced professionals (11-15 years tenure) show some attrition (7.04%)—likely due to career stagnation, lack of opportunities, or work dissatisfaction.
+- Veteran employees (16+ years in company) with longer role tenures (6–10 or 10+ years) show the lowest attrition (under 10%), highlighting long-term retention when growth and role alignment are achieved.
 
 
 **Company Tenure and Years Since Last Promotion**
 
-- Recently promoted early-career employees have a high attrition rate (27.68%), which might suggest some dissatisfaction even after promotions. One possible cause is that these groups expected more growth or income increase.
+- Newly hired employees show the highest attrition (36.36%), but even those recently promoted early in their career (1–3 years in company) still have a high attrition rate at 27.68%, contributing 26.16% to overall attrition—suggesting that early promotions alone may not retain talent.
 
-- Mid-career employees (7-10 years) who haven’t been promoted in 6+ years (19.30% attrition rate) seem at risk, reinforcing that delayed promotions can contribute to turnover.
+- Employees in the Stable Phase (7–10 years) who haven’t been promoted in 6+ years experience an attrition rate of 19.30%, revealing the impact of stalled mid-career progression.
 
-- Veteran employees (16+ years) with stagnant growth (11.27%) still leave, though at lower rates—possibly due to late-career job fatigue or retirement plans.
+- As tenure increases, delays in promotion become less impactful—Veteran Employees (16+ years) with 6+ years since their last promotion show an attrition rate of only 11.27%.
 
-- Employees with recent promotions generally have lower attrition, confirming that promotions help retain talent.
+- Those who were recently promoted later in their career (Stable to Veteran phase) show the lowest attrition, especially in the 11–15 year and 16+ year groups, emphasizing the value of continued recognition over time.
 
 
 **Key Summary of Section 3:**
 
-- Sales & Entry-Level Roles Need Attention – Sales reps, lab technicians, and early-career employees have the highest attrition.
+- Sales Representatives face the highest attrition at 39.76%, followed by Laboratory Technicians and Human Resources roles (~24%). These positions likely experience limited growth or support, signaling a need for better career pathways and development programs.
 
-- Training Helps Retention – Lack of training is a major attrition factor, while employees with 5+ training sessions leave less. This shows that upskilling/training is a big factor for retaining employees in the organization.
+- Employees with no training or minimal training (1–2 sessions) show noticeably higher attrition rates (27.78% and 17.31%, respectively), while those receiving 5+ training opportunities drop to 10.87%, highlighting the importance of investing in continuous learning.
 
-- Early Attrition is the Biggest Challenge – The first 2 years in a role or company are when most employees leave. This reinforces the need for engagement for young employees.
+- Attrition peaks during the first 1–3 years of tenure, especially for those in the 0–2 year role range (up to 36.36%). This early phase is a critical period—employees may leave due to unmet expectations or lack of growth clarity.
 
-- Promotions Aren’t a Silver Bullet – Recently promoted employees still leave, meaning other factors like workload, satisfaction, or pay might play a role.
+- Even recently promoted employees in the early phase leave at a high rate (27.68%), suggesting that early recognition alone may not ensure retention—employees might need mentoring, alignment with career goals, or stronger team dynamics.
+
+- In contrast, mid- to senior-level employees with long delays in promotion experience moderate attrition (11–19%), but this stabilizes in the Veteran phase when roles and growth expectations are more aligned.
 
 
 ## **SECTION 4: Job Satisfaction & Compensation vs. Attrition**
