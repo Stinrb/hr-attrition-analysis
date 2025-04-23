@@ -313,97 +313,70 @@ Employee attrition results from a range of personal, professional, and organizat
 ## **SECTION 4: Job Satisfaction & Compensation vs. Attrition**
 
 
-**Job Satisfaction and Attrition**
+**Job Satisfaction**
 
-- Employees with Low Job Satisfaction (22.84% attrition rate) have a significantly higher attrition rate than those with Very High Job Satisfaction (11.33%).
+- Employees with low job satisfaction have the highest attrition rate at 22.84%, contributing to over 27% of total attrition cases—highlighting dissatisfaction as a major driver of turnover.
 
-- Even employees with High or Medium Job Satisfaction (~16%) show notable attrition, but it drops as satisfaction increases.
+- Attrition drops consistently as satisfaction improves: Medium (16.43%), High (16.52%), and Very High (11.33%), confirming the strong link between satisfaction and retention.
 
-
-**Job Involvement and Attrition**
-
-- Employees with Low Job Involvement (33.73% attrition rate) are leaving at an alarming rate, nearly four times the rate of those with Very High Job Involvement (9.03%).
-
-- Those with High (14.40%) and Medium (18.93%) Job Involvement also experience noticeable attrition, but they fare better than low-involvement employees.
+- While "High" satisfaction accounts for the most attrition cases overall (30.80%), this is due to a larger employee base—not dissatisfaction, but rather a signal to monitor engagement even in content teams.
 
 
-**Income Level and Attrition**
+**Job Involvement**
 
-- Employees in the lowest income quartile ("<= 25%", 29.27% attrition rate) are the most likely to leave, showing a threefold difference from those in the highest quartile ("> 75%", 10.33%).
+- Employees with low job involvement have the highest attrition rate at 33.73%, despite making up a smaller portion of the workforce—this highlights disengagement as a critical attrition risk.
 
-- There’s a steep decline in attrition as income increases, suggesting financial compensation is a strong factor in retention.
+- Attrition steadily declines as involvement increases: Medium (18.93%), High (14.40%), and Very High (9.03%), underscoring the value of fostering deeper commitment and role ownership.
 
-
-**Salary Hike and Attrition**
-
-- The lowest salary hike group (11%-15%, 16.32%) has the highest number of employees but also one of the highest attrition rates.
-
-- Employees who received higher salary hikes (21%-25%, 17.54%) still had a high attrition rate, indicating that salary hikes alone may not be enough to retain employees.
+- The majority of attrition cases (52.74%) come from highly involved employees, not because they are disengaged, but due to their larger population—these individuals may require growth opportunities or recognition to retain.
 
 
-**Overtime and Attrition**
+**Monthly Income**
 
-- Employees who work overtime (30.53%) are leaving at nearly three times the rate of those who do not (10.44%).
+- Employees in the lowest income group (≤ 25%) have the highest attrition rate at 29.27%, contributing to 45.57% of all attrition cases, signaling financial dissatisfaction as a primary driver of turnover.
 
-- Even among highly satisfied employees, overtime leads to higher attrition, emphasizing the negative impact of excessive workload on retention.
+- Attrition significantly decreases as income increases:
 
+≤ 50% income group: 14.21%
 
-**Job Satisfaction and Income Level**
+≤ 75%: 10.63%
 
-- Low Job Satisfaction & Low Income ("<= 25%") is a double risk: attrition reaches 42.86% in this group.
+> 75%: 10.33%
 
-- Even employees with High or Very High Job Satisfaction in lower-income brackets (~22%-29%) are still leaving at a high rate, reinforcing the idea that low income overrides job satisfaction as a retention factor.
-
-
-**Job Satisfaction and Salary Hike**
-
-- Employees with Low Job Satisfaction continue to leave despite receiving the highest salary hikes. Those who received a 21%-25% increase still have an attrition rate of 32.43%, while those with 16%-20% hikes see 27.14% attrition.
-
-- In contrast, employees with Very High Job Satisfaction are less likely to leave, even with smaller raises. Those with a 11%-15% hike show an attrition rate of just 12.46%, and with 16%-20% hikes, attrition drops further to 8.55%.
+- Investing in fair and competitive compensation for entry-level or lower-earning roles may reduce overall attrition impact.
 
 
-**Job Satisfaction and Overtime**
+**Percent Salary Hike**
 
-- Low Satisfaction + Overtime employees (35.71%) are leaving significantly more than High Satisfaction + No Overtime (9.97%), confirming that excessive work hours and dissatisfaction drive turnover.
+- Employees who received only an 11%–15% hike account for the highest overall attrition share (63.29%), with an attrition rate of 16.32%, indicating dissatisfaction with moderate raises.
 
+- Slightly better hikes (16%–20%) see reduced attrition (15%), suggesting that increment size plays a role in retention.
 
-**Job Involvement and Income Level**
-
-- Employees with Low Job Involvement and Low Income (bottom 25%) have the highest attrition rate at 57.14%, with more than half leaving. Even those with Medium Job Involvement but low salaries experience 37.89% attrition.
-
-- However, for employees with High Job Involvement, attrition remains low across income groups. Those in the top 25% salary bracket have an attrition rate of just 8.84%, while even those with a below-average income (≤ 50%) show only 13.91% attrition.
+- The highest hike group (21%–25%) has the highest attrition rate at 17.54%, though it only affects 12.66% of total attrition cases—implying that very high hikes alone don’t guarantee retention and might even follow after a counteroffer or exit risk scenario.
 
 
-**Job Involvement and Salary Hike**
+**Overtime**
 
-- For employees with Low Job Involvement, salary hikes do not prevent attrition. Even with a 21%-25% salary hike, 30.77% still leave, and with 11%-15% hikes, attrition is even higher at 39.58%.
+- Employees working overtime experience a significantly higher attrition rate (30.53%), contributing to over half of all attrition cases (53.59%).
 
-- For Highly Involved employees, salary hikes are more effective. Those with a 11%-15% increase have an attrition rate of just 9.21%, and at 21%-25% hikes, attrition falls further to 7.14%—one of the lowest rates overall.
+- In contrast, employees not working overtime have a much lower attrition rate (10.44%), suggesting better retention when work hours are kept reasonable.
 
+- This clear gap highlights that excessive workload and poor work-life balance due to overtime is a major driver of attrition.
 
-**Job Involvement and Overtime**
-
-- Low Involvement + Overtime (52% attrition rate!) is the most vulnerable group.
-
-- Even High Involvement employees with Overtime (28.16%) are at risk, showing that even motivated employees leave when overworked.
-
-
-**Income Level and Overtime**
-
-- Lowest income employees working overtime (58.49% attrition rate!) have the highest attrition in the dataset.
-
-- Even at higher income levels, employees working overtime leave at nearly double the rate of those not working overtime.
+- Monitoring overtime and promoting healthier work expectations could help reduce turnover risk.
 
 
 **Key Summary of Section 4:**
 
-- Low job satisfaction, low job involvement, low income, and overtime remain the strongest predictors of attrition. Employees experiencing one or more of these factors are at the highest risk of leaving.
+- Low job satisfaction leads to the highest attrition rate (22.84%), but the majority of attrition cases (30.80%) come from those with high satisfaction, due to their larger group size—suggesting that satisfaction alone doesn't guarantee retention.
 
-- Financial compensation plays a major role, but increasing salaries alone is not enough. Employees with low satisfaction or involvement continue to leave despite high salary hikes. Job satisfaction, involvement, and workload balance are equally crucial.
+- Employees with low job involvement are nearly twice as likely to leave (33.73%) compared to those highly involved. However, most attrition cases still come from the medium to high involvement groups, highlighting a complex interplay of motivation and engagement.
 
-- Overtime is one of the most critical factors influencing attrition. Even highly engaged and well-paid employees experience significantly higher attrition rates when working overtime.
+- The lowest income group (bottom 25%) shows a much higher attrition rate (29.27%), accounting for almost half (45.57%) of all attrition cases—clear evidence that compensation is a major retention factor.
 
-- Higher salary hikes reduce attrition—but only for engaged employees. For those with low job involvement, even a 21%-25% salary increase does little to prevent turnover, whereas highly engaged employees are more likely to stay with even modest salary increases.
+- While higher salary hikes (21–25%) slightly improve retention, the difference is not drastic, suggesting that salary hikes alone aren’t enough to retain talent without other supportive factors.
+
+- Employees working overtime experience the highest attrition rate (30.53%) and make up the majority of attrition cases (53.59%)—a strong indicator that workload and overtime are key triggers for attrition.
 
 
 ## **SECTION 5: Workload & Career History vs. Attrition
