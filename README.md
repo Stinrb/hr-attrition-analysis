@@ -337,12 +337,12 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Attrition significantly decreases as income increases:
 
-≤ 50% income group: 14.21%
-
-≤ 75%: 10.63%
-
-> 75%: 10.33%
-
+  - ≤ 50% income group: 14.21%
+  
+  - ≤ 75%: 10.63%
+  
+  - > 75%: 10.33%  
+  
 - Investing in fair and competitive compensation for entry-level or lower-earning roles may reduce overall attrition impact.
 
 
