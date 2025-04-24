@@ -398,31 +398,24 @@ Employee attrition results from a range of personal, professional, and organizat
 
 **Number of Companies Worked**
 
-Employees who have worked at 7-10 companies before are the most likely to leave (20.00%), suggesting that job-hopping behavior continues.
+- Employees who worked at 7–10 companies have an attrition rate of 20.00%, followed closely by those with 4–6 companies at 18.01%.
 
-Even those with 4-6 companies have a relatively high attrition rate (18.01%), compared to those with 0-3 companies (14.96%), who are slightly more stable.
+- Those who worked at 0–3 companies show a lower attrition rate of 14.96%, yet they still account for 64.56% of all attrition due to group size.
 
 
 **Total Working Years**
 
-As expected, early-career employees (1-5 years) face the highest attrition (28.20%), with fresh graduates being the most unstable (45.45%).
+- Fresh graduates and early-career professionals are the most at-risk, with attrition rates of 45.45% and 28.20%, respectively — together they contribute to over 38% of total attrition.
 
-More experienced professionals (11-20 years) show lower attrition (11.47%), and veterans (21+ years) have the lowest rates (~6-10%), indicating career stability over time.
-
-
-**Total Working Years and Number of Companies Worked**
-
-- Early-career employees, especially those who have switched multiple companies, show the highest attrition rates. Fresh graduates with 0-3 companies already have a high attrition rate (45.45%), but early-career employees who have worked at 4-6 companies hit an alarming 50.00%.
-
-- Job-hopping amplifies attrition risk across all experience levels—employees who have worked at 7-10 companies tend to leave more often, even among industry veterans (22.22%).
-
-- On the other hand, experienced professionals with long tenure at fewer companies have significantly lower attrition, reinforcing that stability builds retention. Early-career employees need higher engagement and growth opportunities to be retained.
+- Attrition rates decline steadily with more experience, dropping to 14.99% for those in the 6–10 year range and just 6.83% for those with 21–30 years in the field.
 
 
 **Key Summary of Section 5:**
 
-- Frequent business travel and short tenure with managers significantly increase attrition risk.
+- Frequent business travel (24.91% attrition) and short-term manager tenure (20.00%) are strong risk indicators, together contributing to nearly half of total attrition.
 
-- Employees in their early career phase are most likely to leave, especially those who have switched multiple companies.
+- Employees with 7+ companies on record show a 20.00% attrition rate, while those with fewer than 4 show a lower 14.96%, emphasizing how job mobility influences stability.
 
-- Stability in both tenure and career history is linked to lower attrition, reinforcing the need for strong employee engagement in the early years.
+- Fresh graduates (45.45%) and those with 1–5 years’ experience (28.20%) have the highest attrition, while long-tenured employees (21–30 years) have the lowest (6.83%).
+
+- Longer relationships with direct managers are protective: attrition drops steadily from 20.00% (0–3 years) to just 4.11% with 11+ years under the same manager.
