@@ -251,7 +251,7 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Relationship Satisfaction shows a subtler effect. Although differences between satisfaction levels aren’t drastic, employees reporting Low satisfaction still display an elevated attrition rate of 20.65%, implying personal well-being can affect retention in more nuanced ways.
 
-*For deeper insights (e.g., combinations like Work-Life Balance + Distance or Environment Satisfaction + Age), please explore the interactive dashboard.*
+*For deeper insights (e.g., combinations like Work-Life Balance + Distance or Environment Satisfaction), please explore the interactive dashboard.*
 
 
 ## SECTION 3: Career Growth & Development vs. Attrition
@@ -263,9 +263,11 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Laboratory Technicians (23.94%) and HR staff (23.08%) also show notably high attrition, highlighting risks in support and technical roles.
 
-- Sales Executives follow with a moderate attrition rate of 17.48%, but contribute significantly to total attrition (24.05%) due to their volume in the organization.
+- Sales Executives follow with a moderate attrition rate of 17.48%. Research Scientists also contribute notably with a lower attrition rate (16.10%), suggesting moderate risk but important due to their critical role in R&D.
 
-- Research Scientists also contribute notably (19.83% of overall attrition) with a lower attrition rate (16.10%), suggesting moderate risk but important due to their critical role in R&D.
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role.png" width="45%" />
+</p>
 
 
 **Training Count from Previous Year**
