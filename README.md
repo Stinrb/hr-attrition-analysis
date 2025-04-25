@@ -265,10 +265,15 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Sales Executives follow with a moderate attrition rate of 17.48%. Research Scientists also contribute notably with a lower attrition rate (16.10%), suggesting moderate risk but important due to their critical role in R&D.
 
+**Job Role Distribution**
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role.png" width="45%" />
 </p>
 
+**Department Distribution**
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department.png" width="45%" />
+</p>
 
 **Training Count from Previous Year**
 
@@ -278,14 +283,22 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - High training exposure (5+) is associated with the lowest attrition rate (10.87%), indicating that continuous development can boost retention.
 
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/training_count_prev_year.png" width="45%" />
+</p>
 
-**Company and Job Role Tenure**
 
-- Newly hired employees (0 years at company, 0–2 years in role) face the highest attrition rate at 36.36%, followed by early-career employees (1–3 years tenure, 0–2 years in role) at 24.88%, contributing the most to overall attrition (44.73%).
+**Current Role Tenure**
 
-- Attrition decreases with tenure—those in the 6–10 year company range and 3–10 years in role show much lower attrition rates (7–12%), signaling better stability.
+- Employees in their first 0–2 years in a role face the highest attrition rate at 22.6%, contributing 64.1% of total attrition—highlighting a vulnerable period for disengagement or unmet expectations.
 
-- Veteran employees (16+ years in company) with longer role tenures (6–10 or 10+ years) show the lowest attrition (under 10%), highlighting long-term retention when growth and role alignment are achieved.
+- Attrition drops significantly among those in their roles for 3–5 years (11.6%) and even further for 6–10 years (10.8%), suggesting that role stability correlates with improved retention.
+
+- Employees with 10+ years in the same role show the lowest attrition rate at just 6.4%, comprising only 2.1% of all attrition cases.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/years_in_current_role.png" width="45%" />
+</p>
 
 
 **Company Tenure and Years Since Last Promotion**
