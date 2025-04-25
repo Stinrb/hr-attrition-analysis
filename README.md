@@ -32,12 +32,16 @@ The dataset consists of 1,470 employees, reflecting a diverse workforce across d
 
 The workforce comprises 60% male employees (882) and 40% female employees (588). Employee ages range from 18 to 60 years, with an average age of 37. Notably, more than 70% of employees are between the ages of 25 and 44, which are critical years for career development and employee retention.
 
-**Gender Distribution**
+<p align="center">
+<strong>Gender Distribution</strong>
+</p>
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_proportions.png" width="45%" />
 </p>
 
-**Age Group Distribution**
+<p align="center">
+<strong>Age Group Distribution</strong>
+</p>
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group.png" width="45%" />
 </p>
@@ -129,18 +133,6 @@ Employee attrition results from a range of personal, professional, and organizat
 ## SECTION 1: Employee Demographics vs. Attrition
 
 
-**Gender**
-
-- Male employees account for 63.29% of overall attrition cases, which aligns with their larger representation in the company.
-
-- However, when examining attrition rates within each gender group, males have a slightly higher rate (17.01%) compared to females (14.80%).
-
-
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_vs_attrition.png" width="45%" />
-</p>
-
-
 **Age**
 
 - 18–24 year-olds show the highest attrition rate at 39.18%, indicating a strong tendency to leave despite being the smallest group by population size. This could reflect early-career instability or dissatisfaction with entry-level roles.
@@ -151,6 +143,17 @@ Employee attrition results from a range of personal, professional, and organizat
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_count_and_attrition_rate.png" width="45%" />
+</p>
+
+
+**Gender**
+
+- Male employees account for 63.29% of overall attrition cases, which aligns with their larger representation in the company.
+
+- However, when examining attrition rates within each gender group, males have a slightly higher rate (17.01%) compared to females (14.80%).
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_vs_attrition.png" width="45%" />
 </p>
 
 
@@ -228,6 +231,7 @@ Employee attrition results from a range of personal, professional, and organizat
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/relationship_satisfaction.png" width="45%" />
 </p>
 
+
 **Work-life Balance**
 
 - "Bad" work-life balance (31.25%) results in the highest attrition rate — nearly 1 out of 3 employees with "Bad" work-life balance leave.
@@ -265,26 +269,33 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Sales Executives follow with a moderate attrition rate of 17.48%. Research Scientists also contribute notably with a lower attrition rate (16.10%), suggesting moderate risk but important due to their critical role in R&D.
 
-**Job Role Distribution**
+<p align="center">
+<strong>Job Role Distribution</strong>
+</p>
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role.png" width="45%" />
 </p>
 
-**Department Distribution**
+<p align="center">
+<strong>Department Distribution</strong>
+</p>
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department.png" width="45%" />
 </p>
 
-**Training Count from Previous Year**
+*For more comprehensive insights, such as which specific roles and departments drive the highest attrition, please explore the interactive dashboard.*
 
-- Employees with no training show the highest attrition rate at 27.78%, suggesting a strong link between lack of learning opportunities and employee turnover.
 
-- Those receiving low to moderate training (1–4 sessions) have moderate attrition rates (17.31% and 15.47%) but account for 85% of overall attrition, likely due to their large population share.
+**Company Tenure**
 
-- High training exposure (5+) is associated with the lowest attrition rate (10.87%), indicating that continuous development can boost retention.
+- Newly hired employees (0 years) show the highest attrition rate at 36.36%, despite making up just 6.75% of overall attrition — indicating early-stage disengagement or mismatched expectations.
+
+- Employees in their 1–3 year tenure account for the largest share of attrition (44.73%) and still show a high attrition rate (24.88%), suggesting this is a key risk phase where retention efforts are crucial.
+
+- From the 4th year onward, attrition rates significantly decrease — especially among employees with 11–15 years (6.48%) and 16+ years (9.42%) tenure, highlighting stronger loyalty among long-tenured staff.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/training_count_prev_year.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/company_tenure.png" width="45%" />
 </p>
 
 
@@ -301,15 +312,33 @@ Employee attrition results from a range of personal, professional, and organizat
 </p>
 
 
-**Company Tenure and Years Since Last Promotion**
+**Training Count from Previous Year**
 
-- Newly hired employees show the highest attrition (36.36%), but even those recently promoted early in their career (1–3 years in company) still have a high attrition rate at 27.68%, contributing 26.16% to overall attrition—suggesting that early promotions alone may not retain talent.
+- Employees with no training show the highest attrition rate at 27.78%, suggesting a strong link between lack of learning opportunities and employee turnover.
 
-- Employees in the Stable Phase (7–10 years) who haven’t been promoted in 6+ years experience an attrition rate of 19.30%, revealing the impact of stalled mid-career progression.
+- Those receiving low to moderate training (1–4 sessions) have moderate attrition rates (17.31% and 15.47%) but account for 85% of overall attrition, likely due to their large population share.
 
-- As tenure increases, delays in promotion become less impactful—Veteran Employees (16+ years) with 6+ years since their last promotion show an attrition rate of only 11.27%.
+- High training exposure (5+) is associated with the lowest attrition rate (10.87%), indicating that continuous development can boost retention.
 
-- Those who were recently promoted later in their career (Stable to Veteran phase) show the lowest attrition, especially in the 11–15 year and 16+ year groups, emphasizing the value of continued recognition over time.
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/training_count_prev_year.png" width="45%" />
+</p>
+
+
+**Years Since Last Promotion**
+
+- Recently promoted employees have the highest attrition rate (18.93%) and account for nearly half (46.41%) of all attrition.
+
+- Those not promoted for 7–10 years also show elevated attrition (17.95%), possibly due to stagnation or dissatisfaction.
+
+- Meanwhile, employees in the 4–6 year range show the lowest attrition (9.42%), possibly reflecting a more stable, experienced segment.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/years_since_last_promotion.png" width="45%" />
+</p>
+
+Note: As the dataset lacks time-based tracking of promotions, it's difficult to assess precise timelines for career movement. The "0 (Recently Promoted)" group may include both new hires and internal promotions. For deeper insight, cross-referencing with the years_at_company variable could help distinguish between recent joiners versus recently advanced employees.
+🧩 [Click here to view the SQL script for this grouping.] (Insert actual link)
 
 
 **Key Summary of Section 3:**
@@ -318,11 +347,9 @@ Employee attrition results from a range of personal, professional, and organizat
 
 - Employees with no training or minimal training (1–2 sessions) show noticeably higher attrition rates (27.78% and 17.31%, respectively), while those receiving 5+ training opportunities drop to 10.87%, highlighting the importance of investing in continuous learning.
 
-- Attrition peaks during the first 1–3 years of tenure, especially for those in the 0–2 year role range (up to 36.36%). This early phase is a critical period—employees may leave due to unmet expectations or lack of growth clarity.
+- Attrition peaks during the first 1–3 years of company tenure, especially for those in the 0–2 year role range (up to 36.36%). This early phase is a critical period—employees may leave due to unmet expectations or lack of growth clarity.
 
-- Even recently promoted employees in the early phase leave at a high rate (27.68%), suggesting that early recognition alone may not ensure retention—employees might need mentoring, alignment with career goals, or stronger team dynamics.
-
-- In contrast, mid- to senior-level employees with long delays in promotion experience moderate attrition (11–19%), but this stabilizes in the Veteran phase when roles and growth expectations are more aligned.
+- Even recently promoted employees in the early phase leave, suggesting that early recognition alone may not ensure retention—employees might need mentoring, alignment with career goals, or stronger team dynamics. In contrast, mid- to senior-level employees with long delays in promotion experience moderate attrition (11–19%), but this stabilizes in the Veteran phase when roles and growth expectations are more aligned.
 
 
 ## **SECTION 4: Job Satisfaction & Compensation vs. Attrition**
