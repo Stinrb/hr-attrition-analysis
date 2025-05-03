@@ -25,9 +25,20 @@ To simulate a real-world case, this project assumes a fictional organization fac
 Identify the key factors driving employee attrition and propose actionable strategies to improve employee retention — particularly among high-risk groups.
 
 
-## Data Standardization & Definitions
+## Data Import
 
-To improve clarity and ensure consistency, certain ambiguous labels in the dataset were standardized to align with common HR terminology:
+The dataset was imported into pgAdmin 4 (PostgreSQL) for data cleaning, transformation, and exploratory data analysis (EDA). SQL was used to manipulate and structure the data, generate insights, and prepare it for visualization in Power BI.
+
+
+## Data Cleaning, Standardization & Definitions
+
+- The dataset was in good condition upon import. There are no duplicates, null and missing values in the dataset after double checking in SQL.
+
+- To improve clarity and ensure consistency, the following changes were made in the dataset:  
+
+    - A total of eight columns were dropped since these columns either provide redundant information or have minimal impact on key insights.  
+    - Certain ambiguous labels in the dataset were standardized to align with common HR terminology.  
+    - Adjusted column names for readability (e.g., EnvironmentSatisfaction → environment_satisfaction).  
 
 
 - Standardization for *education* column (level of education achieved) :
@@ -59,6 +70,23 @@ The dataset originates from Kaggle, while additional metadata and variable inter
 (Source: https://inseaddataanalytics.github.io/INSEADAnalytics/groupprojects/January2018FBL/IBM_Attrition_VSS.html)
 
 
+## Dataset Overview:
+
+Taking a look at the data structure after data cleaning and standardization.
+
+- Total Rows: 1470
+- Total Columns (after cleaning): 27
+- Data Types: Categorical (character) and Ordinal/Numerical (integer)
+- Target Variable: attrition ('Yes'/'No')
+- Key Domains Covered (focus area):
+  - Demographics: age, gender, education, marital_status
+  - Job Details: department, job_role
+  - Job Fulfillment: job_satisfaction, environment_satisfaction, relationship_satisfaction
+  - Compensation: monthly_income, percent_salary_hike
+  - Career Progression: years_since_last_promotion, years_in_current_role, training_count_prev_year
+  - Work-Life Balance: overtime, work_life_balance
+
+ 
 ## Dataset Limitations
 
 1. The dataset does not contain date columns, limiting our ability to analyze trends over time.
@@ -70,9 +98,7 @@ The dataset originates from Kaggle, while additional metadata and variable inter
 These limitations affect how we interpret career progression and promotion recency insights.
 
 
-## Dataset Overview:
-
-### Who Are Our Employees?
+## Who Are Our Employees?
 
 The dataset consists of 1,470 employees, reflecting a diverse workforce across different backgrounds and career stages.
 
