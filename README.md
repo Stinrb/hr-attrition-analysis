@@ -115,7 +115,7 @@ Employee attrition results from a range of personal, professional, and organizat
 - The total attrition rate is 16.12% (237 out of 1,470 employees).
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/attrition_proportion.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="45%" />
 </p>
 
 
