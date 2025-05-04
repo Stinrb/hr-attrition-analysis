@@ -98,35 +98,37 @@ Taking a look at the data structure after data cleaning and standardization.
 These limitations affect how we interpret career progression and promotion recency insights.
 
 
-## Who Are Our Employees?
+# Demographics - Who Are Our Employees?
 
-The dataset consists of 1,470 employees, reflecting a diverse workforce across different backgrounds and career stages.
+Understanding the people behind the data is important than simply seeing them as numbers. By getting to know who they are, we can better understand the groups they represent and the reasons behind their choices. This dataset includes 1,470 employees across various age groups, genders, education levels and marital statuses. This reflects a diverse workforse across different backgrounds and career stages.
 
 
-**Gender & Age:**
+## **Gender and Age
 
-The workforce comprises 60% male employees (882) and 40% female employees (588). Employee ages range from 18 to 60 years, with an average age of 37. Notably, more than 70% of employees are between the ages of 25 and 44, which are critical years for career development and employee retention.
+Let’s begin by exploring the age and gender distribution in the dataset. Understanding how these demographics are represented helps build context before diving into the attrition analysis.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_distribution.png" width="45%" />
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_distribution.png" width="45%" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/min_max_avg_age.png" width="45%" />
+</p>
 
-**Education Background:**
+**Gender Distribution:** The employee population consists of 60% male and 40% female, showing a relatively balanced distribution.   
 
-Approximately 39% of employees have a bachelor’s degree (572), 27% hold a master’s degree (398), 19% are undergraduates (282), and 12% completed high school (170). Those with a doctorate represent 3% (48). This data underscores the diverse academic qualifications within the workplace.
+**Age Distribution:** Employees range in age from 18 to 60 years old, with an average age of 37. We can also see in the graph that there's a large volume of population between 25 to 45 years old - which are critical years for career progression and development. This makes it an important part of employee retention as mid-career years are often where opportunities, challenges and work-life balance decisions converges.
+
+
+## Education Level and Marital Status
+
+**Education Distribution:** We can see that most of the population in the graph have a Bachelor's degree nearing the 600 mark. Followed by those who holds a Master's degree at around 400. This marks the two of the most concentrated population in education background.  
+
+**Marital Status:** The distribution shows that a large number of employees are married which is followed by single and divorced employees. This is a good area to look at as employee turnover are greatly affected by personal choices regarding life responsibilities and priorities. 
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_distribution.png" width="45%" />
-</p>
-
-
-**Marital Status:**
-
-The workforce consists of 46% married employees (673), 32% single (470), and 22% divorced (327).
-
-<p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_distribution.png" width="45%" />
 </p>
 
