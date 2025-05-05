@@ -103,7 +103,7 @@ These limitations affect how we interpret career progression and promotion recen
 Understanding the people behind the data is important than simply seeing them as numbers. By getting to know who they are, we can better understand the groups they represent and the reasons behind their choices. This dataset includes 1,470 employees across various age groups, genders, education levels and marital statuses. This reflects a diverse workforse across different backgrounds and career stages.
 
 
-## **Gender and Age
+## Gender and Age
 
 Let’s begin by exploring the age and gender distribution in the dataset. Understanding how these demographics are represented helps build context before diving into the attrition analysis.
 
@@ -133,35 +133,19 @@ Let’s begin by exploring the age and gender distribution in the dataset. Under
 </p>
 
 
-## Key Insights
+# Why Do They Leave?
 
-Employee attrition results from a range of personal, professional, and organizational factors. A thorough analysis of these variables is essential for developing effective retention strategies and cultivating a positive work environment.
-
-
-### Overall Attrition Rate
-
-- The total attrition rate is 16.12% (237 out of 1,470 employees).
+Now that we have a clearer picture of who our employees are, let’s uncover the insights behind why they leave. The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees having left the organization.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="45%" />
 </p>
 
-
-## SECTION 1: Employee Demographics vs. Attrition
-
-
-**Age**
-
-- 18–24 year-olds show the highest attrition rate at 39.18%, indicating a strong tendency to leave despite being the smallest group by population size. This could reflect early-career instability or dissatisfaction with entry-level roles.
-
-- The 25–34 group has the second-highest rate at 20.22%. Given that this group also has the largest population, this suggests that not only is attrition relatively high here, but it also affects the company more broadly.
-
-- Older age groups (35–44, 45–54, and 55–64) display much lower attrition rates (around 10–16%), suggesting stronger job stability, possible career satisfaction, or more investment in long-term tenure.
+Taking a look at the age group, the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. These two segments contributes to over 60% (150 out of 237 attrition count) in overall attrition rate, placing them in a high-risk category.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_count_and_attrition_rate.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition_rate.png" width="45%" />
 </p>
-
 
 **Gender**
 
