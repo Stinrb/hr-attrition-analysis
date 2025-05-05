@@ -143,9 +143,7 @@ Now that we have a clearer picture of who our employees are, let’s uncover the
 
 Taking a look at the age group, the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. These two segments contributes to over 60% (150 out of 237 attrition count) in overall attrition rate, placing them in a high-risk category.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition_rate.png" width="45%" />
-</p>
+
 
 **Gender**
 
