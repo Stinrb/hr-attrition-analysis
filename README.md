@@ -180,44 +180,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 
 
-
-**Gender**
-
-- Male employees account for 63.29% of overall attrition cases, which aligns with their larger representation in the company.
-
-- However, when examining attrition rates within each gender group, males have a slightly higher rate (17.01%) compared to females (14.80%).
-
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_vs_attrition.png" width="45%" />
-</p>
-
-
-**Education Level**
-
-- Employees with a High School education have the highest attrition rate (18.24%), though they account for a smaller portion of overall attrition (13.08%).
-
-- Those with a Bachelor’s degree show a slightly lower attrition rate (17.31%) but contribute the most to total attrition (41.77%) due to their large population size.
-
-- Undergraduate and Master’s degree holders have moderate attrition rates (15.60% and 14.57%, respectively), suggesting more stability.
-
-- Employees with a Doctorate have the lowest attrition rate (10.42%) and the smallest overall impact (2.11%).
-
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_count_and_attrition_rate.png" width="45%" />
-</p>
-
-
-**Marital Status**
-
-- Single employees have the highest attrition rate at 25.53% and contribute 50.63% of overall attrition, which could be linked to early career transitions or life changes.
-
-- Married employees have a lower attrition rate (12.48%) and make up 35.44% of overall attrition, indicating more stability in this group.
-
-- Divorced employees have the lowest attrition rate (10.09%) but still contribute 13.92% to overall attrition.
-
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_count_and_attrition_rate.png" width="45%" />
-</p>
+** BELOW IS DRAFT **
 
 
 **Key Summary for Section 1:**
@@ -240,9 +203,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - Interestingly, employees living very close (0-5 km) still experience attrition (13.77%), but they make up the largest portion (36.71%) of total attrition cases.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/distance_from_home.png" width="45%" />
-</p>
+
 
 
 **Environment Satisfaction**
@@ -251,9 +212,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - Employees with medium to very high satisfaction (13.45%-14.98%) have similar but lower attrition rates, meaning satisfaction likely influences retention.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/environment_satisfaction.png" width="45%" />
-</p>
+
 
 
 **Relationship Satisfaction**
@@ -262,9 +221,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - Employees with high, medium, or very high satisfaction show similar attrition rates (14.81% - 15.47%), suggesting that relationship satisfaction has a moderate but noticeable impact on retention.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/relationship_satisfaction.png" width="45%" />
-</p>
+
 
 
 **Work-life Balance**
@@ -275,9 +232,6 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - Employees with a "Better" work-life balance (14.22%) make up the majority (53.59%) of overall attrition cases, likely because this is the largest group.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/work-life_balance.png" width="45%" />
-</p>
 
 
 **Key Summary for Section 2:**
@@ -304,19 +258,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - Sales Executives follow with a moderate attrition rate of 17.48%. Research Scientists also contribute notably with a lower attrition rate (16.10%), suggesting moderate risk but important due to their critical role in R&D.
 
-<p align="center">
-<strong>Job Role Distribution</strong>
-</p>
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role.png" width="45%" />
-</p>
 
-<p align="center">
-<strong>Department Distribution</strong>
-</p>
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department.png" width="45%" />
-</p>
 
 *For more comprehensive insights, such as which specific roles and departments drive the highest attrition, please explore the interactive dashboard.*
 
@@ -329,9 +271,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - From the 4th year onward, attrition rates significantly decrease — especially among employees with 11–15 years (6.48%) and 16+ years (9.42%) tenure, highlighting stronger loyalty among long-tenured staff.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/company_tenure.png" width="45%" />
-</p>
+
 
 
 **Current Role Tenure**
@@ -342,9 +282,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - Employees with 10+ years in the same role show the lowest attrition rate at just 6.4%, comprising only 2.1% of all attrition cases.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/years_in_current_role.png" width="45%" />
-</p>
+
 
 
 **Training Count from Previous Year**
@@ -355,9 +293,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - High training exposure (5+) is associated with the lowest attrition rate (10.87%), indicating that continuous development can boost retention.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/training_count_prev_year.png" width="45%" />
-</p>
+
 
 
 **Years Since Last Promotion**
@@ -368,9 +304,7 @@ A key question: Which age and marital status groups are most likely to leave?
 
 - Meanwhile, employees in the 4–6 year range show the lowest attrition (9.42%), possibly reflecting a more stable, experienced segment.
 
-<p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/years_since_last_promotion.png" width="45%" />
-</p>
+
 
 Note: As the dataset lacks time-based tracking of promotions, it's difficult to assess precise timelines for career movement. The "0 (Recently Promoted)" group may include both new hires and internal promotions. For deeper insight, cross-referencing with the years_at_company variable could help distinguish between recent joiners versus recently advanced employees.
 🧩 [Click here to view the SQL script for this grouping.] (Insert actual link)
