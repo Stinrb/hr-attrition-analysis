@@ -102,10 +102,9 @@ These limitations affect how we interpret career progression and promotion recen
 
 Understanding the people behind the data is important than simply seeing them as numbers. By getting to know who they are, we can better understand the groups they represent and the reasons behind their choices. This dataset includes 1,470 employees across various age groups, genders, education levels and marital statuses. This reflects a diverse workforse across different backgrounds and career stages.
 
+Let’s begin by exploring the age and gender distribution, followed by education level and marital status before diving into attrition analysis.
 
 ## Gender and Age
-
-Let’s begin by exploring the age and gender distribution in the dataset. Understanding how these demographics are represented helps build context before diving into the attrition analysis.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_distribution.png" width="45%" />
@@ -123,14 +122,16 @@ Let’s begin by exploring the age and gender distribution in the dataset. Under
 
 ## Education Level and Marital Status
 
-**Education Distribution:** We can see that most of the population in the graph have a Bachelor's degree nearing the 600 mark. Followed by those who holds a Master's degree at around 400. This marks the two of the most concentrated population in education background.  
-
-**Marital Status:** The distribution shows that a large number of employees are married which is followed by single and divorced employees. This is a good area to look at as employee turnover are greatly affected by personal choices regarding life responsibilities and priorities. 
-
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_distribution.png" width="45%" />
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_distribution.png" width="45%" />
 </p>
+
+**Education Distribution:** We can see that most of the population in the graph have a Bachelor's degree nearing the 600 mark. Followed by those who holds a Master's degree at around 400. This marks the two of the most concentrated population in education background.  
+
+**Marital Status:** The distribution shows that a large number of employees are married which is followed by single and divorced employees. This is a good area to look at as employee turnover are greatly affected by personal choices regarding life responsibilities and priorities. 
+
+
 
 
 # Why Do They Leave?
@@ -141,32 +142,38 @@ Now that we have a clearer picture of who our employees are, let’s uncover the
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="50%" />
 </p>
 
+
 ## Demographics Analysis
 
 Our aim here is to analyze and see if certain demographic groups have higher attrition rates and see how their behavior changes when combined with another variable.
 
 
 - Taking a look at the age group, the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. These two segments contributes to over 60% (150 out of 237 attrition count) in overall attrition rate, placing them in a high-risk category. 
-- Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition.png" width="50%" />
 </p>
 
+
+- Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_attrition.png" width="50%" />
 </p>
 
+
 - Education levels also shows a farily balanced attrition rate across all groups, with the rate decreasing towards Doctorate degree holders.
-- Marital status reveals a strong link to attrition, with Single employees leaving at more than twice the rate of Divorced employees. Their attrition rate exceeds that of Married employees by 13%, suggesting relationship status may influence employee turnover.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_attrition.png" width="50%" />
 </p>
 
+
+- Marital status reveals a strong link to attrition, with single employees leaving at more than twice the rate of divorced employees. Their attrition rate exceeds that of Married employees by 13%, suggesting relationship status may influence employee turnover.
+
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_attrition.png" width="50%" />
 </p>
+
 
 Let’s investigate further for patterns across high-risk variables.  
 A key question: Which age and marital status groups are most likely to leave?
