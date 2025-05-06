@@ -103,3 +103,30 @@ GROUP BY age_group, marital_status
 ORDER BY attrition_rate_per_group DESC;
 
 
+-- Age Group and Marital Status - Granular Attrition Analysis
+WITH cte1 AS (
+SELECT
+    CASE
+        WHEN age BETWEEN 18 AND 24 THEN '18-24'
+        WHEN age BETWEEN 25 AND 34 THEN '25-34'
+        WHEN age BETWEEN 35 AND 44 THEN '35-44'
+        WHEN age BETWEEN 45 AND 54 THEN '45-54'
+        WHEN age BETWEEN 55 AND 64 THEN '55-64'
+        WHEN age >= 65 THEN '65+'
+    END AS age_group,
+    marital_status,
+    attrition,
+    COUNT(*) AS count
+FROM dim_employee
+WHERE attrition = 'Yes'
+GROUP BY age_group, marital_status, attrition
+)
+SELECT
+    age_group,
+    marital_status,
+    attrition,
+    count,
+    ROUND ( 100 * count / SUM(count) OVER (PARTITION BY age_group), 2) AS percentage
+FROM cte1
+GROUP BY age_group, marital_status, attrition, count
+ORDER BY age_group ASC, marital_status DESC, count DESC;
