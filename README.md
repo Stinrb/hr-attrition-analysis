@@ -138,7 +138,7 @@ Let’s begin by exploring the age and gender distribution in the dataset. Under
 Now that we have a clearer picture of who our employees are, let’s uncover the insights behind why they leave. The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees having left the organization.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="50%" />
 </p>
 
 ## Demographics Analysis
@@ -148,34 +148,33 @@ Our aim here is to analyze and see if certain demographic groups have higher att
 
 - Taking a look at the age group, the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. These two segments contributes to over 60% (150 out of 237 attrition count) in overall attrition rate, placing them in a high-risk category. 
 - Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
-- 
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition.png" width="50%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_attrition.png" width="50%" />
 </p>
 
 - Education levels also shows a farily balanced attrition rate across all groups, with the rate decreasing towards Doctorate degree holders.
 - Marital status reveals a strong link to attrition, with Single employees leaving at more than twice the rate of Divorced employees. Their attrition rate exceeds that of Married employees by 13%, suggesting relationship status may influence employee turnover.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_attrition.png" width="50%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_attrition.png" width="50%" />
 </p>
 
-Let’s investigate further for patterns across high-risk variables.
+Let’s investigate further for patterns across high-risk variables.  
 A key question: Which age and marital status groups are most likely to leave?
 
 - We can see a consistent pattern of higher attrition among young and single employees. The 18–24 age group stands out with a 50% attrition rate from single employees alone. This trend still persists into the 25-34 age group which has 32.07% attrition rate by the single employees. Notably, the 55–64 group also shows a noticeable 26.32% attrition rate among singles, though this may be more related to retirement or career transitions than disengagement.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition.png" width="70%" />
 </p>
 
 
