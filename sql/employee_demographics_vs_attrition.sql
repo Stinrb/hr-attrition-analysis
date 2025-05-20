@@ -1,4 +1,4 @@
--- SECTION 1: Employee Demographics vs. Attrition
+-- Employee Demographics vs. Attrition
 
 
 -- Attrition Count and Percentage
