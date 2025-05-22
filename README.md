@@ -24,6 +24,12 @@ To simulate a real-world case, this project assumes a fictional organization fac
 
 Identify the key factors driving employee attrition and propose actionable strategies to improve employee retention — particularly among high-risk groups.
 
+Questions to ask:
+
+1. Which group shows high attrition rates?
+2. Are there patterns across variables?
+3. What actionable insights could the organization gain from these trends.
+
 
 ## Data Import
 
@@ -39,6 +45,19 @@ The dataset was imported into pgAdmin 4 (PostgreSQL) for data cleaning, transfor
     - A total of eight columns were dropped since these columns either provide redundant information or have minimal impact on key insights.  
     - Certain ambiguous labels in the dataset were standardized to align with common HR terminology.  
     - Adjusted column names for readability (e.g., EnvironmentSatisfaction → environment_satisfaction).  
+
+
+- Standardization for *education* column (level of education achieved) :
+
+    - 1 "Below College" → High School
+    - 2 "College" → Undergraduate
+    - 5 "Doctor" → Doctorate
+    - Other education levels remain unchanged (Bachelor, Master) 
+
+
+## Data Standardization & Definitions
+
+To improve clarity and ensure consistency, certain ambiguous labels in the dataset were standardized to align with common HR terminology:
 
 
 - Standardization for *education* column (level of education achieved) :
@@ -67,7 +86,7 @@ The dataset was imported into pgAdmin 4 (PostgreSQL) for data cleaning, transfor
 
 
 The dataset originates from Kaggle, while additional metadata and variable interpretations were referenced from INSEAD Analytics' project on IBM HR Attrition to ensure alignment with the dataset's intended use.  
-(Source: https://inseaddataanalytics.github.io/INSEADAnalytics/groupprojects/January2018FBL/IBM_Attrition_VSS.html)
+(Link: https://inseaddataanalytics.github.io/INSEADAnalytics/groupprojects/January2018FBL/IBM_Attrition_VSS.html)
 
 
 ## Dataset Overview:
@@ -86,7 +105,7 @@ Taking a look at the data structure after data cleaning and standardization.
   - Career Progression: years_since_last_promotion, years_in_current_role, training_count_prev_year
   - Work-Life Balance: overtime, work_life_balance
 
- 
+
 ## Dataset Limitations
 
 1. The dataset does not contain date columns, limiting our ability to analyze trends over time.
@@ -98,13 +117,14 @@ Taking a look at the data structure after data cleaning and standardization.
 These limitations affect how we interpret career progression and promotion recency insights.
 
 
-# Demographics - Who Are Our Employees?
+# Who Are Our Employees?
 
 Understanding the people behind the data is important than simply seeing them as numbers. By getting to know who they are, we can better understand the groups they represent and the reasons behind their choices. This dataset includes 1,470 employees across various age groups, genders, education levels and marital statuses. This reflects a diverse workforse across different backgrounds and career stages.
 
-Let’s begin by exploring the age and gender distribution, followed by education level and marital status before diving into attrition analysis.
 
 ## Gender and Age
+
+Let’s begin by exploring the age and gender distribution in the dataset. Understanding how these demographics are represented helps build context before diving into the attrition analysis.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_distribution.png" width="45%" />
@@ -122,73 +142,93 @@ Let’s begin by exploring the age and gender distribution, followed by educatio
 
 ## Education Level and Marital Status
 
+**Education Distribution:** The graph shows that most employees hold a Bachelor's degree, nearly 600 individuals, followed by around 400 with a Master's degree. These two groups represent the primary educational backgrounds in the workforce.
+
+**Marital Status:** The distribution indicates that a significant proportion of employees are married, followed by those who are single and divorced. This presents an opportunity for further analysis, as employee turnover can be significantly influenced by personal life choices and responsibilities.
+
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_distribution.png" width="45%" />
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_distribution.png" width="45%" />
 </p>
 
-**Education Distribution:** We can see that most of the population in the graph have a Bachelor's degree nearing the 600 mark. Followed by those who holds a Master's degree at around 400. This marks the two of the most concentrated population in education background.  
 
-**Marital Status:** The distribution shows that a large number of employees are married which is followed by single and divorced employees. This is a good area to look at as employee turnover are greatly affected by personal choices regarding life responsibilities and priorities. 
+## Job Details
 
+Let's also take a look at the distribution of employees by department and job role to understand the organization's structure. 
 
-
-
-# Why Do They Leave?
-
-Now that we have a clearer picture of who our employees are, let’s uncover the insights behind why they leave. The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees having left the organization.
+**Department:** The department with the highest employee count is Research and Development, making up over 60% of the overall volume of employee population, followed by Sales, and then Human Resources.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_distribution.png" width="45%" />
+</p>
+
+**Job Role:** The graph shows that Sales Executive role has the largest volume of employee population, followed by Research Scientist and Laboratory Technician, consecutively. These top three roles account for more than half of the total population size when combined.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role_distribution.png" width="45%" />
+</p>
+
+
+# Understanding Why Employees Leave: An Exploratory Data Analysis
+
+Now that we that we understand who the employees are, let’s uncover why they leave. 
+Our main objective here is to conduct an analysis to evaluate whether specific factors are associated with significant employee turnover rates and if there are patterns across various groups and variables. 
+
+The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees having left the organization. While this is below the 20% threshold considered high by [**Personio**](https://www.personio.com/hr-lexicon/attrition-rate/#what-is-considered-a-high-employee-attrition-rate), it still raises concern and is worth investigating as companies should strive for an attrition rate of below 10% (Ruehl, 2014).
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="45%" />
 </p>
 
 
 ## Demographics Analysis
 
-Our aim here is to analyze and see if certain demographic groups have higher attrition rates and see how their behavior changes when combined with another variable.
-
-
-- Taking a look at the age group, the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. These two segments contributes to over 60% (150 out of 237 attrition count) in overall attrition rate, placing them in a high-risk category. 
+1. Age Group - The graph indicates that the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. Together, these two segments account for over 60% of total attrition cases (150 out of 237 attrition count), placing them in a high-risk category. 
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition.png" width="45%" />
 </p>
 
 
-- Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
+2. Gender - Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
+
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_attrition.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_attrition.png" width="45%" />
 </p>
 
 
-- Education levels also shows a farily balanced attrition rate across all groups, with the rate decreasing towards Doctorate degree holders.
-
+3. Education - Education levels also shows a farily balanced attrition rate across all groups, with the rate decreasing towards Doctorate degree holders.
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_attrition.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_attrition.png" width="45%" />
 </p>
 
 
-- Marital status reveals a strong link to attrition, with single employees leaving at more than twice the rate of divorced employees. Their attrition rate exceeds that of Married employees by 13%, suggesting relationship status may influence employee turnover.
+4. Marital Status - Attrition appears significantly higher among single employees, who leave at more than twice the rate of their divorced counterparts. Their attrition rate exceeds that of married employees by 13%, suggesting relationship status may influence employee turnover.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_attrition.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_attrition.png" width="45%" />
 </p>
 
 
-Let’s investigate further for patterns across high-risk variables.  
-A key question: Which age and marital status groups are most likely to leave?
+**Connections across high attrition variables.**  
+Key questions: 
 
-- We can see a consistent pattern of higher attrition among young and single employees. The 18–24 age group stands out with a 50% attrition rate from single employees alone. This trend still persists into the 25-34 age group which has 32.07% attrition rate by the single employees. Notably, the 55–64 group also shows a noticeable 26.32% attrition rate among singles, though this may be more related to retirement or career transitions than disengagement.
+1. Is there a pattern in attrition across age group?
+2. Which marital status across age group is most at risk?
+
+- The single employees in the 18–24 age group stand out with 50% or half of their population leaving the organization, followed by married employees at a 30% attrition rate. High attrition among single employees persists in the 25-34 age group. Notably, the 55–64 age group appears to have a high attrition rate among single employees, but this is more likely related to retirement or career transitions than disengagement. 
+
+- We can see a pattern of high attrition among young and single employees, which puts them most at risk in employee turnover. Let's check the variables on why this is the case in the following sections. 
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition.png" width="70%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_rate.png" width="70%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_volume.png" width="100%" />
 </p>
 
 
+## Job Details Analysis
 
-
-
-
-
-
-
+1. Department - 
