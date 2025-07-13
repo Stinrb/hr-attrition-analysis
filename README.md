@@ -47,25 +47,12 @@ The dataset was imported into pgAdmin 4 (PostgreSQL) for data cleaning, transfor
     - Adjusted column names for readability (e.g., EnvironmentSatisfaction → environment_satisfaction).  
 
 
-- Standardization for *education* column (level of education achieved) :
+- Standardization for *education* column (level of education achieved):
 
     - 1 "Below College" → High School
     - 2 "College" → Undergraduate
     - 5 "Doctor" → Doctorate
     - Other education levels remain unchanged (Bachelor, Master) 
-
-
-## Data Standardization & Definitions
-
-To improve clarity and ensure consistency, certain ambiguous labels in the dataset were standardized to align with common HR terminology:
-
-
-- Standardization for *education* column (level of education achieved) :
-
-    - 1 "Below College" → High School
-    - 2 "College" → Undergraduate
-    - 5 "Doctor" → Doctorate
-    - Other education levels remain unchanged (Bachelor, Master)  
 
 
 - Monthly Income Distribution:
@@ -79,8 +66,9 @@ To improve clarity and ensure consistency, certain ambiguous labels in the datas
 
     *job_satisfaction:* Reflects how content an employee is with their job, work environment, and responsibilities. Higher scores indicate greater satisfaction.  
 
-    *percent_salary_hike:* Represents the percentage increase in an employee’s salary over time, which may impact retention and motivation.  
-    relationship_satisfaction: Measures an employee’s satisfaction with workplace relationships (colleagues, supervisors, subordinates).  
+    *percent_salary_hike:* Represents the percentage increase in an employee’s salary over time, which may impact retention and motivation.
+
+    *relationship_satisfaction:* Measures an employee’s satisfaction with workplace relationships (colleagues, supervisors, subordinates).  
 
     *work_life_balance:* Represents how employees perceive their ability to balance work responsibilities with personal life, which can be a significant factor in employee satisfaction and retention. Higher scores indicates better balance and satisfaction.  
 
@@ -103,7 +91,7 @@ Taking a look at the data structure after data cleaning and standardization.
   - Job Fulfillment: job_satisfaction, environment_satisfaction, relationship_satisfaction
   - Compensation: monthly_income, percent_salary_hike
   - Career Progression: years_since_last_promotion, years_in_current_role, training_count_prev_year
-  - Work-Life Balance: overtime, work_life_balance
+  - Work-Life Balance: overtime, work_life_balance, business_travel
 
 
 ## Dataset Limitations
@@ -112,7 +100,7 @@ Taking a look at the data structure after data cleaning and standardization.
 
 2. It does not track the number of promotions an employee has received, only the years since their last promotion.
 
-3. Employees with 0 years_since_last_promotion are assumed to have been recently promoted, but without a timeline, we cannot confirm when the promotion occurred.
+3. Employees with 0 years_since_last_promotion are assumed to have been recently promoted, but without a timeline or count of promotion, we cannot confirm when the promotion occurred or how many times an employee was promoted to properly see career progression.
 
 These limitations affect how we interpret career progression and promotion recency insights.
 
@@ -183,38 +171,42 @@ The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees hav
 
 ## Demographics Analysis
 
-1. Age Group - The graph indicates that the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. Together, these two segments account for over 60% of total attrition cases (150 out of 237 attrition count), placing them in a high-risk category. 
+1. **Age** - The graph indicates that the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. Together, these two segments account for over 60% of total attrition cases (150 out of 237 attrition count), placing them in most at-risk. 
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition.png" width="45%" />
 </p>
 
 
-2. Gender - Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
+2. **Gender** - Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_attrition.png" width="45%" />
 </p>
 
 
-3. Education - Education levels also shows a farily balanced attrition rate across all groups, with the rate decreasing towards Doctorate degree holders.
+3. **Education** - Education levels also shows a farily balanced attrition rate across all groups, with the rate decreasing towards Doctorate degree holders.
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_attrition.png" width="45%" />
 </p>
 
 
-4. Marital Status - Attrition appears significantly higher among single employees, who leave at more than twice the rate of their divorced counterparts. Their attrition rate exceeds that of married employees by 13%, suggesting relationship status may influence employee turnover.
+4. **Marital Status** - Attrition appears significantly higher among single employees, who leave at more than twice the rate of their divorced counterparts. Their attrition rate exceeds that of married employees by 13%, suggesting relationship status may influence employee turnover.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_attrition.png" width="45%" />
 </p>
 
 
-**Connections across high attrition variables.**  
-Key questions: 
+### **Exploratory analysis across high attrition variables**  
 
 1. Is there a pattern in attrition across age group?
-2. Which marital status across age group is most at risk?
+2. Which marital status across age group is most at-risk?
+
+
+### **Findings:**
+
+#### 1. Age & Marital Status
 
 - The single employees in the 18–24 age group stand out with 50% or half of their population leaving the organization, followed by married employees at a 30% attrition rate. High attrition among single employees persists in the 25-34 age group. Notably, the 55–64 age group appears to have a high attrition rate among single employees, but this is more likely related to retirement or career transitions than disengagement. 
 
@@ -231,4 +223,28 @@ Key questions:
 
 ## Job Details Analysis
 
-1. Department - 
+1. **Department** - Sales and Human Resources both show significantly higher attrition rate than Research and Development, with rates nearing the 20% mark. However, it’s important to note that Human Resources has the lowest headcount, meaning that the employee turnover is more noticeable within that department. Sales, by contrast, combines both a high rate and a larger population, making its attrition more impactful in absolute terms.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_attrition.png" width="45%" />
+</p>
+
+
+2. **Job Role** - **Sales Representative** shows the **highest attrition rate at 39.76%**, standing out with a notable **15% gap** from the subsequent roles, **Laboratory Technician and Human Resources**.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role_attrition.png" width="45%" />
+</p>
+
+
+### **Exploratory across high attrition variables**  
+
+1. Which age groups contribute most significantly to attrition across departments and job roles?
+2. How does attrition by marital status vary across departments and job roles?
+
+**Discretion:** 
+Earlier, we looked at attrition rates to find groups at risk, such as young or single employees, where even a few departures may signal bigger problems. 
+
+However, when we examine departments and job roles in these high-risk groups, we often see that small teams have high attrition rates. This can make the risk seem worse than it is. 
+
+To avoid misunderstandings, this section will focus on total attrition volume. We will look at the departments and roles that cause the most turnover overall. This way, we can better understand where attrition is truly affecting the organization on a larger scale.
