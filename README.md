@@ -213,11 +213,11 @@ The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees hav
 - We can see a pattern of high attrition among young and single employees, which puts them most at risk in employee turnover. Let's check the variables on why this is the case in the following sections. 
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_rate.png" width="70%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_rate.png" width="50%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_volume.png" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_volume.png" width="90%" />
 </p>
 
 
@@ -248,3 +248,23 @@ Earlier, we looked at attrition rates to find groups at risk, such as young or s
 However, when we examine departments and job roles in these high-risk groups, we often see that small teams have high attrition rates. This can make the risk seem worse than it is. 
 
 To avoid misunderstandings, this section will focus on total attrition volume. We will look at the departments and roles that cause the most turnover overall. This way, we can better understand where attrition is truly affecting the organization on a larger scale.
+
+
+### Findings:
+
+#### 1. Demographics & Department
+
+- Attrition is disproportionately high among **younger employees**, particularly in **Human Resources (67%)** and **Sales (52%)** for the **18–24 group**. However, while these rates are striking, their overall contribution to total attrition is **small** due to **low headcount**.
+
+- The **largest overall attrition impact** comes from employees aged **25–34** within **Research & Development** and **Sales**. These groups have both a **sizable population and moderate attrition rates**, making them a critical focus for retention strategies.
+
+- **Single employees** shows **high attrition rates** across departments-particularly in **Sales (34%)** and **Research & Development (21%)**. These two departments alone account for **over 50% of total attrition** among single employees, reinforcing the earlier demographic trend that **younger, unmarried employees are more at risk** of leaving.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_and_age_group_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_and_marital_status_attrition.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_and_age_group_attrition_volume.png" width="90%" />
+</p>
