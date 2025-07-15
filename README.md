@@ -307,3 +307,68 @@ This section examines whether work-related factors—specifically job fulfillmen
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_fulfillment_and_marital_status_attrition_rate.png" width="100%" />
 </p>
+
+
+#### 2. Job Fulfillment & Job Role  
+
+This section shifts its focus on how job roles within each department behave across varying levels of job fulfillment categories.
+
+#### 2.1 Environment Satisfaction
+
+  - **Sales Department**
+
+    - Sales Representative shows the highest attrition rates across all satisfaction levels — indicating persistent turnover challenges regardless of workplace conditions. Sales Executives with Low satisfaction shows noticeable attrition rates which decreases as the satisfaction level increases.
+
+  - **Research & Development Department**
+
+    - Laboratory Technicians and Research Scientists show elevated attrition rates in both Low to Very High satisfaction levels, with the Low category contributing the most turnover cases in the department.
+                                                                                                                                
+  - **Human Resources Department**
+
+    - HR Staff are the only roles contributing to attrition across all environment satisfaction levels in this department — with Low satisfaction driving the highest turnover.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/environment_satisfaction_and_job_role_attrition.png" width="100%" />
+</p>
+
+
+#### 2.2 Job Satisfaction
+
+  - **Sales Department**
+   
+    - Across all satisfaction levels—from Low to Very High—the Sales Representative role consistently shows the highest attrition rates, indicating persistent disengagement regardless of satisfaction score. This is followed by Sales Executive role with their attrition rate diminishing as the the satisfaction increases. Managerial roles exhibit minimal attrition, suggesting greater role stability even when satisfaction varies.
+
+
+  - **Research & Development Department**
+
+    - Laboratory Technicians show high attrition rates under both Low and High satisfaction levels. Attrition remains present even under Medium and Very High satisfaction, signaling deeper issues. Research Scientist follows, with attrition under Low, Medium, and High satisfaction levels.
+
+
+  - **Human Resources Department**
+
+    - HR Staff report attrition at every satisfaction level, with Low satisfaction associated with the highest attrition rate.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_satisfaction_and_job_role_attrition.png" width="100%" />
+</p>
+
+
+#### 2.3 Relationship Satisfaction
+
+  - **Sales Department**
+    
+    - Sales Representatives still consistently shows high attrition rates across all satisfaction levels, a pattern to view for employee disengagement in their roles. Sales Executives also experience attrition at every level, with the highest turnover observed at High satisfaction—followed by Low and Very High. Managerial roles show isolated attrition cases—one each at Low and Very High satisfaction levels though it is worth noting that the rate skewed due to low headcount.
+
+
+  - **Research & Development Department**
+    
+    - Laboratory Technicians and Research Scientists role also consistently shows disengagement with elavated attrition rates in different satisfaction levels, suggesting role-specific stressors that go beyond interpersonal satisfaction.
+
+
+  - **Human Resources Department**
+
+    - HR Staff report attrition at every relationship satisfaction level, with High producing the highest attrition rate.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/relationship_satisfaction_and_job_role_attrition.png" width="100%" />
+</p>
