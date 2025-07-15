@@ -213,11 +213,11 @@ The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees hav
 - We can see a pattern of high attrition among young and single employees, which puts them most at risk in employee turnover. Let's check the variables on why this is the case in the following sections. 
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_rate.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_rate.png" width="70%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_volume.png" width="90%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_volume.png" width="100%" />
 </p>
 
 
@@ -230,7 +230,7 @@ The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees hav
 </p>
 
 
-2. **Job Role** - **Sales Representative** shows the **highest attrition rate at 39.76%**, standing out with a notable **15% gap** from the subsequent roles, **Laboratory Technician and Human Resources**.
+2. **Job Role** - Sales Representative shows the highest attrition rate at 39.76%, standing out with a notable 15% gap from the subsequent roles, Laboratory Technician and Human Resources.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role_attrition.png" width="45%" />
@@ -254,11 +254,11 @@ To avoid misunderstandings, this section will focus on total attrition volume. W
 
 #### 1. Demographics & Department
 
-- Attrition is disproportionately high among **younger employees**, particularly in **Human Resources (67%)** and **Sales (52%)** for the **18–24 group**. However, while these rates are striking, their overall contribution to total attrition is **small** due to **low headcount**.
+- Attrition is disproportionately high among younger employees, particularly in Human Resources (67%) and Sales (52%) for the 18–24 group. However, while these rates are striking, their overall contribution to total attrition is small due to low headcount.
 
-- The **largest overall attrition impact** comes from employees aged **25–34** within **Research & Development** and **Sales**. These groups have both a **sizable population and moderate attrition rates**, making them a critical focus for retention strategies.
+- The **largest overall attrition impact** comes from employees aged 25–34 within Research & Development and Sales. These groups have both a sizable population and moderate attrition rates, making them a critical focus for retention strategies.
 
-- **Single employees** shows **high attrition rates** across departments-particularly in **Sales (34%)** and **Research & Development (21%)**. These two departments alone account for **over 50% of total attrition** among single employees, reinforcing the earlier demographic trend that **younger, unmarried employees are more at risk** of leaving.
+- Single employees shows high attrition rates across departments-particularly in Sales (34%) and Research & Development (21%). These two departments alone account for over 50% of total attrition among single employees, reinforcing the earlier demographic trend that younger, unmarried employees are more at risk of leaving.
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_and_age_group_attrition.png" width="45%" />
@@ -267,4 +267,43 @@ To avoid misunderstandings, this section will focus on total attrition volume. W
 
 <p align="center">
   <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_and_age_group_attrition_volume.png" width="90%" />
+</p>
+
+
+### Why are these groups more likely to leave?
+Could it be a sense of exploration that comes with youth? Or perhaps the freedom and flexibility of being single—making job mobility more appealing? Or there's a more underlying reasons behind these numbers? Let’s explore work-related factors to uncover deeper drivers of attrition.
+
+
+## Job Fulfillment Analysis
+
+This section examines whether work-related factors—specifically job fulfillment indicators such as environment satisfaction, job satisfaction, and relationship satisfaction—significantly influence attrition rates. Understanding these relationships can provide insight into the motivations and decision-making patterns of employees who chose to leave, helping identify which fulfillment factors have the strongest impact on turnover risk.
+
+- Across job, environment, and relationship satisfaction, employees who rated their experience as "Low" exhibited attrition rates that is significantly higher than the range observed for all other satisfaction levels. This consistent pattern suggests that low fulfillment in any core area may elevate attrition risk.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_fulfillment_attrition.png" width="50%" />
+</p>
+
+
+### Exploratory analysis across high attrition variable
+
+1. How do the demographics and job details variables interact with job fulfillment factors?
+2. Are there significant differences across satisfaction levels-from Low to Very High?
+3. Do any patterns emerge consistently across categories?
+
+
+### Findings:
+
+#### 1. Job Fulfillment & Demographics
+
+- Single employees consistently exhibit the highest attrition rates across all job fulfillment variables regardless of the satisfaction level. Whether satisfaction is Low, Medium, High, or Very High, young employees, particularly in the 18-24 and 25-34 age groups, still shows elavated attrition rates with the most overall attrition cases.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_fulfillment_and_age_group_attrition_rate.png" width="100%" />
+</p>
+
+- The combination of Single and rating of Low satisfaction results in the highest attrition percentages in all three key areas: Environment Satisfaction, Job Satisfaction, and Relationship Satisfaction. This same group also contributes the most overall turnover cases in both Environment and Job Satisfaction—highlighting a demographic segment that is both numerically significant and vulnerable to disengagement.
+
+<p align="center">
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_fulfillment_and_marital_status_attrition_rate.png" width="100%" />
 </p>
