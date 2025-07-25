@@ -117,12 +117,12 @@ Understanding the people behind the data is important than simply seeing them as
 Let’s begin by exploring the age and gender distribution in the dataset. Understanding how these demographics are represented helps build context before diving into the attrition analysis.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_distribution.png" width="45%" />
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_distribution.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/gender_distribution.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/age_distribution.png" width="45%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/min_max_avg_age.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/min_max_avg_age.png" width="45%" />
 </p>
 
 
@@ -141,8 +141,8 @@ Let’s begin by exploring the age and gender distribution in the dataset. Under
 **Marital Status Distribution:** The distribution indicates that a significant proportion of employees are married, followed by those who are single and divorced. This presents an opportunity for further analysis, as employee turnover can be significantly influenced by personal life choices and responsibilities.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_distribution.png" width="45%" />
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_distribution.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/education_level_distribution.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/marital_status_distribution.png" width="45%" />
 </p>
 
 
@@ -154,14 +154,14 @@ Let's also take a look at the distribution of employees by department and job ro
 **Department Distribution:** The department with the highest employee count is Research and Development, making up over 60% of the overall volume of employee population, followed by Sales, and then Human Resources.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_distribution.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/department_distribution.png" width="50%" />
 </p>
 
 
 **Job Role Distribution:** The graph shows that Sales Executive role has the largest volume of employee population, followed by Research Scientist and Laboratory Technician, consecutively. These top three roles account for more than half of the total population size when combined.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role_distribution.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/job_role_distribution.png" width="50%" />
 </p>
 
 
@@ -173,7 +173,7 @@ Our main objective here is to conduct an analysis to evaluate whether specific f
 The overall attrition rate stands at 16.12%, with 237 out of 1,470 employees having left the organization. While this is below the 20% threshold considered high by [**Personio**](https://www.personio.com/hr-lexicon/attrition-rate/#what-is-considered-a-high-employee-attrition-rate), it still raises concern and is worth investigating as companies should strive for an attrition rate of below 10% (Ruehl, 2014).
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/overall_attrition_rate.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Overview/overall_attrition_rate.png" width="50%" />
 </p>
 
 
@@ -185,27 +185,27 @@ This section analyzes attrition rates across major demographic groups to pinpoin
 1. **Age** - The graph indicates that the 18-24 group shows the highest attrition rate at 39.18%, followed by 25-34 group at 20.22%. Together, these two segments account for over 60% of total attrition cases (150 out of 237 attrition count), placing them in most at-risk. 
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Demographics%20and%20Attrition%20Analysis/age_group_attrition_rate.png" width="50%" />
 </p>
 
 
 2. **Gender** - Attrition is fairly balanced between male and female employees, with males showing a slightly higher rate.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/gender_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Demographics%20and%20Attrition%20Analysis/gender_attrition_rate.png" width="50%" />
 </p>
 
 
 3. **Education** - Education levels also shows a farily balanced attrition rate across all groups, with the rate decreasing towards Doctorate degree holders.
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/education_level_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Demographics%20and%20Attrition%20Analysis/education_level_attrition_rate.png" width="50%" />
 </p>
 
 
 4. **Marital Status** - Attrition appears significantly higher among single employees, who leave at more than twice the rate of their divorced counterparts. Their attrition rate exceeds that of married employees by 13%, suggesting relationship status may influence employee turnover.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/marital_status_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Demographics%20and%20Attrition%20Analysis/marital_status_attrition_rate.png" width="50%" />
 </p>
 
 
@@ -225,11 +225,11 @@ This section analyzes attrition rates across major demographic groups to pinpoin
 - We can see a pattern of high attrition among young and single employees, which puts them most at risk in employee turnover.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_rate.png" width="70%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Demographics%20and%20Attrition%20Analysis/age_group_and_marital_status_attrition_Rate.png" width="60%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/age_group_%26_marital_status_attrition_volume.png" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Demographics%20and%20Attrition%20Analysis/age_group_and_marital_status_volume_by_attrition_status.png" width="100%" />
 </p>
 
 
@@ -241,14 +241,14 @@ Analyzing attrition by department and job role provides a more targeted view of 
 1. **Department** - Sales and Human Resources both show significantly higher attrition rate than Research and Development, with rates nearing the 20% mark. However, it’s important to note that Human Resources has the lowest headcount, meaning that the employee turnover is more noticeable within that department. Sales, by contrast, combines both a high rate and a larger population, making its attrition more impactful in absolute terms.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Details%20and%20Attrition%20Analysis/department_attrition_rate.png" width="45%" />
 </p>
 
 
 2. **Job Role** - Sales Representative shows the highest attrition rate at 39.76%, standing out with a notable 15% gap from the subsequent roles, Laboratory Technician and Human Resources.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_role_attrition.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Details%20and%20Attrition%20Analysis/job_role_attrition_rate.png" width="45%" />
 </p>
 
 
@@ -268,13 +268,13 @@ Analyzing attrition by department and job role provides a more targeted view of 
 - Human Resources (Staff) shows high attrition rate on younger age group as well, again due to the department and role's particular low headcount.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_and_age_group_attrition_volume.png" width="90%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Details%20and%20Attrition%20Analysis/job_role_and_age_group_attrition_rate.png" width="100%" />
 </p>
 
-- Entry-level roles—Sales Representative, Laboratory Technician, Research Scientist, and Human Resources staff—along with Sales Executives, show the highest attrition rates among single employees. Notably, Sales Representatives and Laboratory Technicians lead this trend, emphasizing that young, single employees dominate these high-turnover roles.
+- Entry-level roles—Sales Representative, Laboratory Technician, Research Scientist, and Human Resources staff—along with Sales Executives, show the highest attrition rates among single employees across marital status groups. Notably, Sales Representatives and Laboratory Technicians lead this trend, emphasizing that young, single employees dominate these high-turnover roles.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/department_and_age_group_attrition_volume.png" width="90%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Details%20and%20Attrition%20Analysis/job_role_and_marital_status_attrition_rate.png" width="100%" />
 </p>
 
 
@@ -291,7 +291,7 @@ This section examines whether work-related factors—specifically job fulfillmen
 1. **Job Fulfillment Factors** - Across job, environment, and relationship satisfaction, employees who rated their experience as "Low" exhibited attrition rates that is significantly higher than the range observed for all other satisfaction levels. This consistent pattern suggests that low fulfillment in any core area may elevate attrition risk.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_fulfillment_attrition.png" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Fulfillment%20Factors%20and%20Attrition%20Analysis/job_fulfillment_attrition.png" width="50%" />
 </p>
 
 
@@ -310,14 +310,14 @@ This section examines whether work-related factors—specifically job fulfillmen
 -  Whether satisfaction is Low, Medium, High, or Very High, young employees, particularly in the 18-24 and 25-34 age groups, still shows elavated attrition rates with the most overall attrition cases.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_fulfillment_and_age_group_attrition_rate.png" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Fulfillment%20Factors%20and%20Attrition%20Analysis/job_fulfillment_factors_and_age_group.png" width="100%" />
 </p>
 
 
 - Single employees consistently show the highest attrition rates across all job fulfillment factors, regardless of satisfaction level. Those reporting Low satisfaction exhibit the highest turnover percentages in Environment, Job, and Relationship Satisfaction, highlighting a significant and vulnerable demographic segment at risk of disengagement
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_fulfillment_and_marital_status_attrition_rate.png" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Fulfillment%20Factors%20and%20Attrition%20Analysis/job_fulfillment_factors_and_marital_status.png" width="100%" />
 </p>
 
 
@@ -344,7 +344,7 @@ This section shifts its focus on how job roles within each department behave acr
     HR Staff are the only roles contributing to attrition across all environment satisfaction levels in this department with Low satisfaction driving the highest turnover.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/environment_satisfaction_and_job_role_attrition.png" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Fulfillment%20Factors%20and%20Attrition%20Analysis/environment_satisfaction_and_job_role_attrition.png" width="100%" />
 </p>
 
 
@@ -366,7 +366,7 @@ This section shifts its focus on how job roles within each department behave acr
     HR Staff report attrition at every satisfaction level, with Low satisfaction associated with the highest attrition rate.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/job_satisfaction_and_job_role_attrition.png" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Fulfillment%20Factors%20and%20Attrition%20Analysis/job_satisfaction_and_job_role_attrition.png" width="100%" />
 </p>
 
 
@@ -388,7 +388,7 @@ This section shifts its focus on how job roles within each department behave acr
     HR Staff report attrition at every relationship satisfaction level, with High producing the highest attrition rate.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/relationship_satisfaction_and_job_role_attrition.png" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Job%20Fulfillment%20Factors%20and%20Attrition%20Analysis/relationship_satisfaction_and_job_role_attrition.png" width="100%" />
 </p>
 
 
@@ -400,8 +400,8 @@ This section analyzes compensation factors—monthly income and percent salary h
 1. **Monthly Income and Percent Salary Hike** - Employees who left had a lower average monthly income than those who stayed, while their average percent salary hike showed no difference.
 
 <p align="center">
-  <img src="average monthly income by attrition status" width="50%" />
-  <img src="average percent salary hike by attrition status" width="50%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/monthly_income_average_by_attrition_status.png" width="45%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/percent_salary_hike_average_by_attrition_status.png" width="45%" />
 </p>
 
 
@@ -424,7 +424,7 @@ This section analyzes compensation factors—monthly income and percent salary h
 
 
 <p align="center">
-  <img src="average monthly income and age group by attrition status" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/monthly_income_average_and_age_group_by_attrition_status.png" width="60%" />
 </p>
 
 
@@ -433,7 +433,7 @@ This section analyzes compensation factors—monthly income and percent salary h
     - Employees who left also earned less across marital status groups, with the largest gaps among single and divorced employees. This aligns with earlier findings where single employees consistently showed higher attrition rates, suggesting compensation dissatisfaction may reinforce their likelihood of leaving.
 
 <p align="center">
-  <img src="average monthly income and marital status by attrition status" width="100%" />
+  <img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/monthly_income_average_and_marital_status_by_attrition_status.png" width="60%" />
 </p>
 
 
@@ -448,11 +448,9 @@ This section analyzes compensation factors—monthly income and percent salary h
     There is a clear pay gap between employees who left and those who stayed across all departments—indicating that compensation plays a significant role in employees’ decisions to leave the company. Addressing this gap, particularly in lower-paying roles, could help reduce early-career turnover and improve retention.
 
 <p align="center">
-<img src="average monthly income and department" width="100%" />
-</p>
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/monthly_income_average_by_department.png" width="45%" />
 
-<p align="center">
-<img src="average monthly income and department by attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/monthly_income_average_by_department_and_attrition_status.png" width="45%" />
 </p>
 
 
@@ -464,11 +462,9 @@ This section analyzes compensation factors—monthly income and percent salary h
     Lower-paying roles (Sales Representatives, Laboratory Technicians, and Research Scientists) show both below-average salaries and high attrition, reinforcing their position as high-risk groups already flagged in earlier analyses. Interestingly, a few higher-paying roles (e.g., Healthcare Representatives and Sales Executives) show leavers earning more than those who stayed, hinting that factors beyond pay—such as workload or career mobility—may drive attrition in these roles.
 
 <p align="center">
-<img src="average monthly income and job role" width="100%" />
-</p>
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/monthly_income_average_by_job_role.png" width="45%" />
 
-<p align="center">
-<img src="average monthly income and job role by attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/monthly_income_average_and_job_role_by_attrition_status.png" width="45%" />
 </p>
 
 
@@ -477,11 +473,9 @@ This section analyzes compensation factors—monthly income and percent salary h
     Across all job roles, percent salary hikes are relatively uniform, with most averages clustering around 15–16%, suggesting limited differentiation in how raises are distributed. However, a consistent trend emerges: employees who left tend to receive slightly lower salary hikes than those who stayed. While the differences are modest, they may reinforce perceived inequities, especially in roles that already experience high turnover. Interestingly, Research Scientists show the opposite pattern implying that factors beyond compensation, such as workload, growth opportunities, or job satisfaction—drive attrition in this role.
 
 <p align="center">
-<img src="average percent salary hike and job role" width="100%" />
-</p>
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/percent_salary_hike_average_and_job_role.png" width="45%" />
 
-<p align="center">
-<img src="average percent salary hike and job role by attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Compensation%20and%20Attrition%20Analysis/percent_salary_hike_average_and_job_role_by_attrition_status.png" width="45%" />
 </p>
 
 
@@ -493,33 +487,27 @@ Work-life balance factors are critical in understanding employee turnover, as th
 1. **Business Travel** - Employees who travel frequently show a significantly higher attrition rate (24.9%) compared to those who travel rarely or not at all. While the majority of turnover cases come from the "Travel Rarely" group due to its larger population, the disproportionately high attrition rate among frequent travelers suggests that heavy travel demands may contribute to burnout or dissatisfaction.
 
 <p align="center">
-<img src="bussy attrition rate" width="100%" />
-</p>
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/business_travel_attrition_rate.png" width="45%" />
 
-<p align="center">
-<img src="bussy count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/business_travel_count_by_attrition_status.png" width="45%" />
 </p>
 
 
 2. **Overtime** - Employees working overtime show a much higher attrition rate (30.5%) compared to those who don’t (10.4%)—indicating that extended work hours are a strong turnover driver.
 
 <p align="center">
-<img src="ovataym attrition rate" width="100%" />
-</p>
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/overtime_attrition_rate.png" width="45%" />
 
-<p align="center">
-<img src="ovataym? count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/overtime_count_by_attrition_status.png" width="45%" />
 </p>
 
 
 3. **Work-life Balance Level** - Employees with a Low work-life balance (31.25% attrition) show the highest turnover risk, reinforcing that poor balance strongly drives attrition. While attrition rates decline as perceived balance improves, even employees reporting Very High balance still leave at a notable 17.65%, suggesting that other factors, such as compensation, career growth or job fulfillement factors which may outweigh work-life balance for some groups.
 
 <p align="center">
-<img src="work lay balans attrition rate" width="100%" />
-</p>
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/work_life_balance_level_attrition_rate.png" width="45%" />
 
-<p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/work_life_balance_level_count_by_attrition_status.png" width="45%" />
 </p>
 
 
@@ -544,7 +532,7 @@ Work-life balance factors are critical in understanding employee turnover, as th
     Employees in roles requiring frequent travel show significantly higher attrition rates, particularly among the 18–24 and 25–34 age groups—already identified as high-risk in earlier analyses. Notably, even employees aged 45–64 exhibit elevated attrition in travel-intensive roles, suggesting that frequent business travel can impact retention across demographics.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/business_travel_and_age_group_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -553,7 +541,7 @@ Work-life balance factors are critical in understanding employee turnover, as th
     Frequent business travel consistently shows the highest attrition rates across all marital status groups, with Single employees being the most affected (38.54%). Married and Divorced employees show comparatively lower attrition, but rates still rise notably when frequent travel is required. This reinforces earlier findings that frequent travel is a strong attrition driver, particularly among demographics already at higher risk.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/business_travel_and_marital_status_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -565,7 +553,7 @@ Work-life balance factors are critical in understanding employee turnover, as th
     Required overtime shows consistently higher attrition rates across all age groups, with the most striking impact on younger employees (18–24 at 67.7% and 25–34 at 40.4%). While older age groups show lower overall attrition, overtime still nearly doubles their likelihood of leaving compared to those not required to work extra hours. This reinforces the earlier pattern that younger employees are more sensitive to workload pressures, making overtime a critical attrition driver across demographics.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/overtime_and_age_group_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -574,7 +562,7 @@ Work-life balance factors are critical in understanding employee turnover, as th
     Overtime-required roles show the highest attrition rates across all marital status groups, with Single employees being the most affected (50%), leaving at nearly 3x the rate of their non-overtime counterpart (49.6% vs 16%). Married (23.1%) and Divorced (19.2%) employees also show a notable jump in attrition when overtime is required compared to roles not required to work extra hours. This reinforces overtime as a key attrition driver, particularly for Single employees which are already flagged as a high-risk group in earlier analyses.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/overtime_and_marital_status_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -586,7 +574,7 @@ Work-life balance factors are critical in understanding employee turnover, as th
     Lower-level roles such as Sales Representatives, Laboratory Technicians, and Research Scientists show high attrition across all work-life balance levels, even among those reporting High or Very High balance. This suggests that factors beyond perceived balance, such as career growth or compensation, drive turnover in these roles. Conversely, higher-paying roles like Managers and Research Directors maintain consistently low attrition regardless of work-life balance ratings.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/work_life_balance_level_and_age_group_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -595,7 +583,7 @@ Work-life balance factors are critical in understanding employee turnover, as th
     Attrition rates are highest at low work-life balance levels across all marital status groups, with Single employees showing the steepest risk (48%). While attrition decreases as work-life balance improves, Single employees continue to record higher rates than their Married and Divorced counterparts even at High and Very High levels, suggesting that factors beyond work-life balance may influence their decision to leave.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/work_life_balance_level_and_marital_status_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -607,7 +595,7 @@ Work-life balance factors are critical in understanding employee turnover, as th
     At-risk roles requiring frequent business travel show significantly higher attrition rates compared to their counterparts, with Sales Representatives, Laboratory Technicians, and Research Scientists among the most affected. This suggests that travel demands may amplify turnover risk in already vulnerable roles.
   
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/business_travel_and_job_role_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -616,16 +604,16 @@ Work-life balance factors are critical in understanding employee turnover, as th
     Roles requiring overtime consistently show much higher attrition rates compared to those that don’t. At-risk roles already highlighted in earlier segments are the most affected—Sales Representatives (66.7%), Laboratory Technicians (50%), and Research Scientists (34%) stand out, reinforcing their vulnerability. Even roles with moderate overall attrition, like Sales Executives (33%), see a notable increase under required overtime.
   
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/overtime_and_job_role_attrition_rate.png" width="60%" />
 </p>
 
 
   - **Work-Life Balance Level and Job Role**
 
-    At-risk roles show persistently high attrition regardless of perceived work-life balance levels. Sales Representatives stand out, with an exceptionally high 88.9% attrition rate even at a Very High work-life balance level, suggesting that factors beyond balance—such as job demands, compensation, or limited career mobility—drive turnover in this group. Laboratory Technicians also record the highest attrition at Low balance (70%) and remain elevated across other levels, indicating ongoing role-related pressures. Sales Executives and Research Scientists follow a similar pattern, with attrition concentrated in Low to Medium balance levels (23–34%). These findings suggest that improving work-life balance alone may not significantly reduce attrition for these roles
+    At-risk roles show persistently high attrition regardless of perceived work-life balance levels. Sales Representatives stand out, with an exceptionally high 88.9% attrition rate even at a Very High work-life balance level, suggesting that factors beyond balance, such as job demands, compensation, or limited career mobility, drive turnover in this group. Laboratory Technicians also record the highest attrition at Low balance (70%) and remain elevated across other levels, indicating ongoing role-related pressures. Sales Executives follow a similar pattern, with attrition concentrated in Low to Medium balance levels and Research Scientist on Very High Level. These findings suggest that improving work-life balance alone may not significantly reduce attrition for these roles
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Work-Life%20Balance%20Level%20and%20Attrition%20Analysis/work_life_balance_and_job_role_attrition_rate.png" width="60%" />
 </p>
 
 
@@ -637,21 +625,21 @@ Career growth and skill development play a critical role in employee retention. 
 1. **Job Role Tenure** - Employees who left the organization generally had shorter tenure in their current roles compared to those who stayed, suggesting limited career progression opportunities may influence attrition.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Career%20Progression%20Analysis/years_in_current_role_attrition_status.png" width="60%" />
 </p>
 
 
 2. **Average Year Since Last Promotion** - The data reveals that shorter promotion cycles are generally associated with higher retention, as most employees who stayed had slightly more recent promotions than those who left. It is also noteworthy that the Research Director role, with an average of 14 years since last promotion, may have experienced attrition due to retirement or late-career exits, rather than promotion-related dissatisfaction.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Career%20Progression%20Analysis/years_since_last_promotion_and_job_role_by_attrition_status.png" width="60%" />
 </p>
 
 
 3. **Average Training Count (Previous Year)** - The average training count from the previous year shows minimal differences between employees who stayed and those who left, indicating that training frequency alone may not strongly influence attrition. However, a few exceptions stand out, Research Directors who left had the lowest average training count (1 training), which may suggest a lack of ongoing development opportunities or reflect end-of-career dynamics.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Career%20Progression%20Analysis/training_count_and_job_role_by_attrition_status.png" width="60%" />
 </p>
 
 
@@ -669,7 +657,7 @@ Career growth and skill development play a critical role in employee retention. 
   Across most roles, employees who left the organization tend to have shorter tenure and slightly lower monthly income compared to those who stayed. This pattern may suggest that slower pay progression in early tenure may influence attrition. However, exceptions exist: Sales Executives who left had a slightly higher average income despite shorter tenure, hinting that factors beyond compensation—such as workload or job satisfaction—may drive turnover in sales roles. High-income, senior roles like Managers and Research Directors show attrition at advanced tenures, likely due to retirement or late-career transitions rather than compensation dissatisfaction.
 
 <p align="center">
-<img src="work lay balans count and attrition status" width="100%" />
+<img src="https://github.com/Stinrb/hr-attrition-analysis/blob/main/visualizations/Career%20Progression%20Analysis/years_in_current_role_and_monthly_income_by_attrition_status.png" width="100%" />
 </p>
 
 
