@@ -26,7 +26,7 @@ HAVING COUNT(*) > 1;
 WITH duplicate_count AS (
     SELECT
         *,
-        ROW_NUMBER () OVER (PARTITION BY age, attrition, monthly_income, department, job_role, job_level, job_satisfaction, marital_status, performance_rating, standard_hours, years_at_company
+        ROW_NUMBER () OVER (PARTITION BY age, attrition, monthly_income, department, job_role, job_satisfaction, marital_status, performance_rating, years_at_company
             ORDER BY employee_number) AS row_num
     FROM dim_employee
 )
